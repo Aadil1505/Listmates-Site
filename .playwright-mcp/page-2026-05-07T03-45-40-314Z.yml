@@ -1,0 +1,836 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Turn off continuous scrolling" [ref=e3] [cursor=pointer]:
+        - /url: "#"
+      - link "Accessibility help" [ref=e4] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e5] [cursor=pointer]
+  - banner [ref=e6]:
+    - generic [ref=e9]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - button "Shopping main menu" [ref=e18] [cursor=pointer]:
+              - img "Shopping main menu" [ref=e19]:
+                - img [ref=e21]
+            - link "Shopping Home" [ref=e24] [cursor=pointer]:
+              - /url: /shopping?udm=28&sei=4wr8aaPOGams5NoPveDg0Ag&shopmd=2&shopst=Ch1MZSBMYWJvIFNhbnRhbCAzMyA1MG1MIGJvdHRsZRIA&sa=X&ved=0ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQ0rsNCBo
+              - img [ref=e25]
+              - img [ref=e31]
+          - search [ref=e48]:
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - combobox "Search" [ref=e55]: Le Labo Santal 33 50mL bottle Le Labo Santal 33 50mL bottle
+                - generic [ref=e56]:
+                  - button "Clear" [ref=e58] [cursor=pointer]:
+                    - img [ref=e60]
+                  - button "Search by voice" [ref=e63] [cursor=pointer]:
+                    - img [ref=e64]
+                  - button "Search by image" [ref=e66] [cursor=pointer]:
+                    - img [ref=e67]
+              - button "Search" [ref=e69] [cursor=pointer]:
+                - img [ref=e72]
+        - generic [ref=e76]:
+          - button "Google apps" [ref=e79] [cursor=pointer]:
+            - img [ref=e80]
+          - link "Sign in" [ref=e84] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DLe%2BLabo%2BSantal%2B33%2B50mL%2Bbottle%26udm%3D28%26sei%3D4wr8aaPOGams5NoPveDg0Ag&ec=futura_srp_og_si_72236_p
+      - generic [ref=e86]:
+        - generic "Search Google" [ref=e88]:
+          - link [ref=e89] [cursor=pointer]:
+            - /url: /search?q=Le+Labo+Santal+33+50mL+bottle&ved=1t:238573&ictx=111
+            - generic [ref=e90]:
+              - img [ref=e92]
+              - img [ref=e94]
+        - generic [ref=e104]:
+          - link "Search" [ref=e106]:
+            - link "Search" [ref=e107] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=Le+Labo+Santal+33+50mL+bottle&udm=28&sei=4wr8aaPOGams5NoPveDg0Ag&shoprs&shopmd=1
+              - generic [ref=e108]: Search
+          - link "Nearby" [ref=e111]:
+            - link "Nearby" [ref=e112] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=Le+Labo+Santal+33+50mL+bottle&udm=28&sei=4wr8aaPOGams5NoPveDg0Ag&shopmd=4&shoprs=CAEYAyodTGUgTGFibyBTYW50YWwgMzMgNTBtTCBib3R0bGUyDggDEgZOZWFyYnkYAkgB&sa=X&ved=0ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQ5YcQCC0oAA
+              - generic [ref=e113]: Nearby
+          - link "Deals" [ref=e115]:
+            - link "Deals" [ref=e116] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=Le+Labo+Santal+33+50mL+bottle&udm=28&sei=4wr8aaPOGams5NoPveDg0Ag&shopmd=3&shoprs=CAESBEoCGAEYBiodTGUgTGFibyBTYW50YWwgMzMgNTBtTCBib3R0bGUyFQgGEgdPbiBzYWxlGAIiBEoCGAFIAQ&sa=X&ved=0ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQyPYMCC4oAQ
+              - generic [ref=e117]: Deals
+          - link "For you" [ref=e119]:
+            - link "For you" [ref=e120] [cursor=pointer]:
+              - /url: /shopping?udm=28&sei=4wr8aaPOGams5NoPveDg0Ag&shopmd=2&shopst=Ch1MZSBMYWJvIFNhbnRhbCAzMyA1MG1MIGJvdHRsZRIA&sa=X&ved=0ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQx_YMCC8oAg
+              - generic [ref=e121]: For you
+  - generic [ref=e123]:
+    - heading "Search Results" [level=1] [ref=e124]
+    - navigation "Refinement" [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - list [ref=e137]:
+            - button "All filters." [ref=e138] [cursor=pointer]:
+              - img [ref=e140]
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "On sale filter. Not selected." [ref=e144]:
+                - /url: /search?q=Le+Labo+Santal+33+50mL+bottle+sale&udm=28&shoprs=CAESBEoCGAEYBiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyEwgGEgdPbiBzYWxlGAIiBEoCGAFYgKsgYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKAJ6BAgIEEg
+                - generic [ref=e145]: On sale
+            - listitem [ref=e146] [cursor=pointer]:
+              - link "Nearby filter. Not selected." [ref=e148]:
+                - /url: /search?q=Le+Labo+Santal+33+50mL+bottle+nearby&udm=28&shoprs=CAEYAyodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDAgDEgZOZWFyYnkYAliAqyBgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKAR6BAgIEEo
+                - img [ref=e152]
+                - generic [ref=e155]: Nearby
+            - listitem [ref=e156] [cursor=pointer]:
+              - link "Nordstrom filter. Not selected." [ref=e158]:
+                - /url: /search?q=nordstrom+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYAiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDQgCEglOb3Jkc3Ryb21YgKsgYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKAZ6BAgIEEw
+                - img [ref=e161]
+                - generic [ref=e162]: Nordstrom
+            - listitem [ref=e163] [cursor=pointer]:
+              - link "Travel Size filter. Not selected." [ref=e165]:
+                - /url: /search?q=travel+size+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYASodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyHQgBEgtUcmF2ZWwgU2l6ZToMCO6IqAEQ74ioATADWICrIGAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKAh6BAgIEE8
+                - generic [ref=e166]: Travel Size
+            - listitem [ref=e167] [cursor=pointer]:
+              - link "Women's filter. Not selected." [ref=e169]:
+                - /url: /search?q=women's+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYASodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyFwgBEgdXb21lbidzOgoI-JZIENqoSTAFWICrIGAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKAp6BAgIEFE
+                - generic [ref=e170]: Women's
+            - listitem [ref=e171] [cursor=pointer]:
+              - link "Under $35 filter. Not selected." [ref=e173]:
+                - /url: /search?q=Le+Labo+Santal+33+50mL+bottle+under+$35&udm=28&shoprs=CAESDRILEQAAAAB2sIBBGAEYBSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyIggFEglVbmRlciAkMzUYAiINEgsRAAAAAHawgEEYASoCGAFYgKsgYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKAx6BAgIEFM
+                - generic [ref=e174]: Under $35
+            - listitem [ref=e175] [cursor=pointer]:
+              - link "Bloomingdale's filter. Not selected." [ref=e177]:
+                - /url: /search?q=bloomingdale's+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYAiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyEggCEg5CbG9vbWluZ2RhbGUnc1iAqyBgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKA56BAgIEFU
+                - img [ref=e180]
+                - generic [ref=e181]: Bloomingdale's
+            - listitem [ref=e182] [cursor=pointer]:
+              - link "Men's filter. Not selected." [ref=e184]:
+                - /url: /search?q=men's+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYASodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyFQgBEgVNZW4nczoKCPiWSBDbqEkwBViAqyBgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKBB6BAgIEFg
+                - generic [ref=e185]: Men's
+            - listitem [ref=e186] [cursor=pointer]:
+              - link "Fragrance filter. Not selected." [ref=e188]:
+                - /url: /search?q=fragrance+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDQgJEglGcmFncmFuY2VgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKBJ6BAgIEFo
+                - generic [ref=e189]: Fragrance
+            - listitem [ref=e190] [cursor=pointer]:
+              - link "Eau de Parfum filter. Not selected." [ref=e192]:
+                - /url: /search?q=eau+de+parfum+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYASodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyHQgBEg1FYXUgZGUgUGFyZnVtOgoI3qotENuqLTACWICrIGAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKBR6BAgIEFw
+                - generic [ref=e193]: Eau de Parfum
+            - listitem [ref=e194] [cursor=pointer]:
+              - link "Get it by Fri filter. Not selected." [ref=e196]:
+                - /url: /search?q=le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAESDZoBCgoIEAI4AUAFSAEYFCodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyJggUEg1HZXQgaXQgYnkgRnJpIg2aAQoKCBACOAFABUgBKgQQARgBYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKBZ6BAgIEF4
+                - generic [ref=e197]: Get it by Fri
+            - listitem [ref=e198] [cursor=pointer]:
+              - link "eBay filter. Not selected." [ref=e200]:
+                - /url: /search?q=ebay+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYAiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyCAgCEgRlQmF5WICrIGAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKBh6BAgIEGA
+                - img [ref=e203]
+                - generic [ref=e204]: eBay
+            - listitem [ref=e205] [cursor=pointer]:
+              - link "Perfume filter. Not selected." [ref=e207]:
+                - /url: /search?q=perfume+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyCwgJEgdQZXJmdW1lYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKBp6BAgIEGM
+                - generic [ref=e208]: Perfume
+            - listitem [ref=e209] [cursor=pointer]:
+              - link "Body Lotion filter. Not selected." [ref=e211]:
+                - /url: /search?q=body+lotion+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDwgJEgtCb2R5IExvdGlvbmAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKBx6BAgIEGU
+                - generic [ref=e212]: Body Lotion
+            - listitem [ref=e213] [cursor=pointer]:
+              - link "Moisturizers filter. Not selected." [ref=e215]:
+                - /url: /search?q=moisturizers+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyEAgJEgxNb2lzdHVyaXplcnNgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKB56BAgIEGc
+                - generic [ref=e216]: Moisturizers
+            - listitem [ref=e217] [cursor=pointer]:
+              - link "Essential & Fragrance Oils filter. Not selected." [ref=e219]:
+                - /url: /search?q=essential+%26+fragrance+oils+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyHggJEhpFc3NlbnRpYWwgJiBGcmFncmFuY2UgT2lsc2AB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKCB6BAgIEGk
+                - generic [ref=e220]: Essential & Fragrance Oils
+            - listitem [ref=e221] [cursor=pointer]:
+              - link "Free shipping filter. Not selected." [ref=e223]:
+                - /url: /search?q=Le+Labo+Santal+33+50mL+bottle+free+shipping&udm=28&shoprs=CAESBFICEAEYGSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyFwgZEg1GcmVlIHNoaXBwaW5nIgRSAhABYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKCJ6BAgIEGs
+                - generic [ref=e224]: Free shipping
+            - listitem [ref=e225] [cursor=pointer]:
+              - link "Body Oil filter. Not selected." [ref=e227]:
+                - /url: /search?q=body+oil+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDAgJEghCb2R5IE9pbGAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKCR6BAgIEG0
+                - generic [ref=e228]: Body Oil
+            - listitem [ref=e229] [cursor=pointer]:
+              - link "Hand Cream filter. Not selected." [ref=e231]:
+                - /url: /search?q=hand+cream+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDggJEgpIYW5kIENyZWFtYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKCZ6BAgIEG8
+                - generic [ref=e232]: Hand Cream
+            - listitem [ref=e233] [cursor=pointer]:
+              - link "Air Fresheners filter. Not selected." [ref=e235]:
+                - /url: /search?q=air+fresheners+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYCSodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyEggJEg5BaXIgRnJlc2hlbmVyc2AB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKCh6BAgIEHE
+                - generic [ref=e236]: Air Fresheners
+            - listitem [ref=e237] [cursor=pointer]:
+              - link "Poshmark filter. Not selected." [ref=e239]:
+                - /url: /search?q=poshmark+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYAiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDAgCEghQb3NobWFya1iAqyBgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKCp6BAgIEHM
+                - img [ref=e242]
+                - generic [ref=e243]: Poshmark
+            - listitem [ref=e244] [cursor=pointer]:
+              - link "New filter. Not selected." [ref=e246]:
+                - /url: /search?q=new+Le+Labo+Santal+33+50mL+bottle&udm=28&shoprs=CAEYCiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyBwgKEgNOZXdYgKsgYAE&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKCx6BAgIEHY
+                - generic [ref=e247]: New
+            - listitem [ref=e248] [cursor=pointer]:
+              - link "Used filter. Not selected." [ref=e250]:
+                - /url: /search?q=used+Le+Labo+Santal+33+50mL+bottle&udm=28&shoprs=CAEYCiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyCAgKEgRVc2VkWICrIGAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKC56BAgIEHg
+                - img [ref=e254]
+                - generic [ref=e258]: Used
+            - listitem [ref=e259] [cursor=pointer]:
+              - link "Gifts for Mothers filter. Not selected." [ref=e261]:
+                - /url: /search?q=gifts+for+mothers+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYASodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyIQgBEhFHaWZ0cyBmb3IgTW90aGVyczoKCPLqPBDz6jwwA1iAqyBgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKDB6BAgIEHo
+                - generic [ref=e262]: Gifts for Mothers
+            - listitem [ref=e263] [cursor=pointer]:
+              - link "Phthalate-free filter. Not selected." [ref=e265]:
+                - /url: /search?q=phthalate-free+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYASodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyIAgBEg5QaHRoYWxhdGUtZnJlZToMCMfGrQIQysatAjADWICrIGAB&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKDJ6BAgIEHw
+                - generic [ref=e266]: Phthalate-free
+            - listitem [ref=e267] [cursor=pointer]:
+              - link "EveryMarket filter. Not selected." [ref=e269]:
+                - /url: /search?q=everymarket+le+labo+santal+33+50ml+bottle&udm=28&shoprs=CAEYAiodbGUgbGFibyBzYW50YWwgMzMgNTBtbCBib3R0bGUyDwgCEgtFdmVyeU1hcmtldFiAqyBgAQ&sa=X&ved=2ahUKEwj7m6DpoaaUAxWCFmIAHR09L_sQip4GKDR6BAgIEH4
+                - img [ref=e272]
+                - generic [ref=e273]: EveryMarket
+          - button [ref=e274] [cursor=pointer]:
+            - img [ref=e277]
+        - combobox [ref=e283] [cursor=pointer]:
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]: "Sort by:"
+              - generic [ref=e287]: Relevance
+            - img [ref=e289]
+    - main [ref=e294]:
+      - generic [ref=e299]:
+        - generic [ref=e304]:
+          - heading "Browse products" [level=2] [ref=e307]
+          - list [ref=e317]:
+            - listitem [ref=e319]:
+              - 'button "Le Labo Santal 33 Eau De Parfum Nearby, 20 mi Le Labo Santal 33 Eau De Parfum Current Price: $110.00. Saks Fifth Avenue & more 30-day returns Rated 4.4 out of 5. 5.8K reviews." [ref=e322]':
+                - generic [ref=e326] [cursor=pointer]:
+                  - generic [ref=e331]:
+                    - generic [ref=e332]:
+                      - img "Le Labo Santal 33 Eau De Parfum" [ref=e335]
+                      - generic [ref=e339]:
+                        - img [ref=e341]
+                        - text: Nearby, 20 mi
+                    - generic [ref=e345]: Le Labo Santal 33 Eau De Parfum
+                    - 'group "Current Price: $110.00." [ref=e347]':
+                      - generic [ref=e350]: $110.00
+                    - generic [ref=e352]:
+                      - generic [ref=e356]: Saks Fifth Avenue
+                      - generic [ref=e357]: "& more"
+                    - generic [ref=e360]: 30-day returns
+                    - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e362]:
+                      - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e363]:
+                        - text: "4.4"
+                        - img [ref=e364]
+                        - text: (5.8K)
+                  - button [ref=e367]
+            - listitem [ref=e369]:
+              - 'button "Le Labo Fragrances Santal 33 Eau de Parfum Refill Le Labo Fragrances Santal 33 Eau de Parfum Refill Current Price: $192.00. Le Labo & more Free delivery Rated 4.7 out of 5. 60 reviews." [ref=e372]':
+                - generic [ref=e376] [cursor=pointer]:
+                  - generic [ref=e381]:
+                    - img "Le Labo Fragrances Santal 33 Eau de Parfum Refill" [ref=e385]
+                    - generic [ref=e387]: Le Labo Fragrances Santal 33 Eau de Parfum Refill
+                    - 'group "Current Price: $192.00." [ref=e389]':
+                      - generic [ref=e392]: $192.00
+                    - generic [ref=e394]:
+                      - generic [ref=e398]: Le Labo
+                      - generic [ref=e399]: "& more"
+                    - generic [ref=e402]: Free delivery
+                    - img "Rated 4.7 out of 5. 60 reviews." [ref=e404]:
+                      - img "Rated 4.7 out of 5, 60 user reviews" [ref=e405]:
+                        - text: "4.7"
+                        - img [ref=e406]
+                        - text: (60)
+                  - button [ref=e409]
+            - listitem [ref=e411]:
+              - 'button "Santal 33 Santal 33 Current Price: $63.00. Shopandbeyondlb Rated 4.4 out of 5. 5.8K reviews." [ref=e414]':
+                - generic [ref=e418] [cursor=pointer]:
+                  - generic [ref=e423]:
+                    - img "Santal 33" [ref=e427]
+                    - generic [ref=e429]: Santal 33
+                    - 'group "Current Price: $63.00." [ref=e431]':
+                      - generic [ref=e434]: $63.00
+                    - generic [ref=e440]: Shopandbeyondlb
+                    - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e442]:
+                      - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e443]:
+                        - text: "4.4"
+                        - img [ref=e444]
+                        - text: (5.8K)
+                  - button [ref=e447]
+            - listitem [ref=e449]:
+              - 'button "25% OFF. Santal 33 Fragrance Oil Santal 33 Fragrance Oil Current Price: $21.00. Was $28. Fragrances oil 7-day returns Rated 4.7 out of 5. 28 reviews." [ref=e452]':
+                - generic [ref=e456] [cursor=pointer]:
+                  - generic [ref=e461]:
+                    - generic [ref=e463]:
+                      - img "25% OFF." [ref=e464]:
+                        - generic [ref=e466]: 25% OFF
+                      - img "Santal 33 Fragrance Oil" [ref=e468]
+                    - generic [ref=e470]: Santal 33 Fragrance Oil
+                    - 'group "Current Price: $21.00. Was $28." [ref=e472]':
+                      - generic [ref=e474]:
+                        - generic [ref=e475]: $21.00
+                        - generic [ref=e476]: $28
+                    - generic [ref=e482]: Fragrances oil
+                    - generic [ref=e485]: 7-day returns
+                    - img "Rated 4.7 out of 5. 28 reviews." [ref=e487]:
+                      - img "Rated 4.7 out of 5, 28 user reviews" [ref=e488]:
+                        - text: "4.7"
+                        - img [ref=e489]
+                        - text: (28)
+                  - button [ref=e492]
+            - listitem [ref=e494]:
+              - 'button "(241)le Labo Santal 33 50ml 1.7 Oz Eau De Parfum Perfume (241)le Labo Santal 33 50ml 1.7 Oz Eau De Parfum Perfume Current Price: $99.00. eBay Free delivery by Wed 30-day returns Rated 4.4 out of 5. 5.8K reviews." [ref=e497]':
+                - generic [ref=e501] [cursor=pointer]:
+                  - generic [ref=e506]:
+                    - img "(241)le Labo Santal 33 50ml 1.7 Oz Eau De Parfum Perfume" [ref=e510]
+                    - generic [ref=e512]: (241)le Labo Santal 33 50ml 1.7 Oz Eau De Parfum Perfume
+                    - 'group "Current Price: $99.00." [ref=e514]':
+                      - generic [ref=e517]: $99.00
+                    - generic [ref=e523]: eBay
+                    - generic [ref=e526]: Free delivery by Wed
+                    - generic [ref=e529]: 30-day returns
+                    - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e531]:
+                      - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e532]:
+                        - text: "4.4"
+                        - img [ref=e533]
+                        - text: (5.8K)
+                  - button [ref=e536]
+            - listitem [ref=e538]:
+              - 'button "25% OFF. Le Labo Santal 33 50ml - New Beauty Le Labo Santal 33 50ml - New Beauty Current Price: $165.00. Was $220. Mercari Rated 4.4 out of 5. 5.9K reviews." [ref=e541]':
+                - generic [ref=e545] [cursor=pointer]:
+                  - generic [ref=e550]:
+                    - generic [ref=e552]:
+                      - img "25% OFF." [ref=e553]:
+                        - generic [ref=e555]: 25% OFF
+                      - img "Le Labo Santal 33 50ml - New Beauty" [ref=e557]
+                    - generic [ref=e559]: Le Labo Santal 33 50ml - New Beauty
+                    - 'group "Current Price: $165.00. Was $220." [ref=e561]':
+                      - generic [ref=e563]:
+                        - generic [ref=e564]: $165.00
+                        - generic [ref=e565]: $220
+                    - generic [ref=e571]: Mercari
+                    - img "Rated 4.4 out of 5. 5.9K reviews." [ref=e573]:
+                      - img "Rated 4.4 out of 5, 5.9K user reviews" [ref=e574]:
+                        - text: "4.4"
+                        - img [ref=e575]
+                        - text: (5.9K)
+                  - button [ref=e578]
+            - listitem [ref=e580]:
+              - 'button "Le Labo Santal 33 Eau de Parfum Spray 1.7 Oz/50 ml New Without Box. Le Labo Santal 33 Eau de Parfum Spray 1.7 Oz/50 ml New Without Box. Current Price: $120.00. Pre-owned. eBay 30-day returns" [ref=e583]':
+                - generic [ref=e587] [cursor=pointer]:
+                  - generic [ref=e592]:
+                    - img "Le Labo Santal 33 Eau de Parfum Spray 1.7 Oz/50 ml New Without Box." [ref=e596]
+                    - generic [ref=e598]: Le Labo Santal 33 Eau de Parfum Spray 1.7 Oz/50 ml New Without Box.
+                    - 'group "Current Price: $120.00. Pre-owned." [ref=e600]':
+                      - generic [ref=e602]:
+                        - generic [ref=e603]: $120.00
+                        - generic [ref=e604]: Pre-owned
+                    - generic [ref=e610]: eBay
+                    - generic [ref=e613]: 30-day returns
+                  - button [ref=e614]
+            - listitem [ref=e616]:
+              - 'button "Le Labo Santal 33 – Eau de Parfum Le Labo Santal 33 – Eau de Parfum Current Price: $362.77. YesMegastore 30-day returns Rated 4.4 out of 5. 5.8K reviews." [ref=e619]':
+                - generic [ref=e623] [cursor=pointer]:
+                  - generic [ref=e628]:
+                    - img "Le Labo Santal 33 – Eau de Parfum" [ref=e632]
+                    - generic [ref=e634]: Le Labo Santal 33 – Eau de Parfum
+                    - 'group "Current Price: $362.77." [ref=e636]':
+                      - generic [ref=e639]: $362.77
+                    - generic [ref=e645]: YesMegastore
+                    - generic [ref=e648]: 30-day returns
+                    - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e650]:
+                      - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e651]:
+                        - text: "4.4"
+                        - img [ref=e652]
+                        - text: (5.8K)
+                  - button [ref=e655]
+            - listitem [ref=e657]:
+              - 'button "Le Labo Santal 33 Eau De Parfum Spray 50ml Patchouli Cruelty- Le Labo Santal 33 Eau De Parfum Spray 50ml Patchouli Cruelty- Current Price: $85.00. eBay" [ref=e660]':
+                - generic [ref=e664] [cursor=pointer]:
+                  - generic [ref=e669]:
+                    - img "Le Labo Santal 33 Eau De Parfum Spray 50ml Patchouli Cruelty-" [ref=e673]
+                    - generic [ref=e675]: Le Labo Santal 33 Eau De Parfum Spray 50ml Patchouli Cruelty-
+                    - 'group "Current Price: $85.00." [ref=e677]':
+                      - generic [ref=e680]: $85.00
+                    - generic [ref=e686]: eBay
+                  - button [ref=e687]
+            - listitem [ref=e689]:
+              - 'button "Le Labo Santal 33 Perfuming Hand Cream Le Labo Santal 33 Perfuming Hand Cream Current Price: $48.00. Le Labo & more Free delivery Rated 2.7 out of 5. 6 reviews." [ref=e692]':
+                - generic [ref=e696] [cursor=pointer]:
+                  - generic [ref=e701]:
+                    - img "Le Labo Santal 33 Perfuming Hand Cream" [ref=e705]
+                    - generic [ref=e707]: Le Labo Santal 33 Perfuming Hand Cream
+                    - 'group "Current Price: $48.00." [ref=e709]':
+                      - generic [ref=e712]: $48.00
+                    - generic [ref=e714]:
+                      - generic [ref=e718]: Le Labo
+                      - generic [ref=e719]: "& more"
+                    - generic [ref=e722]: Free delivery
+                    - img "Rated 2.7 out of 5. 6 reviews." [ref=e724]:
+                      - img "Rated 2.7 out of 5, 6 user reviews" [ref=e725]:
+                        - text: "2.7"
+                        - img [ref=e726]
+                        - text: (6)
+                  - button [ref=e729]
+        - list [ref=e744]:
+          - listitem [ref=e746]:
+            - 'button "Le Labo Santal 33 Eau De Parfum Spray 1.7 Oz, 50ml - New Beauty | Color: White Le Labo Santal 33 Eau De Parfum Spray 1.7 Oz, 50ml - New Beauty | Color: White Current Price: $178.53. Mercari Rated 4.4 out of 5. 5.8K reviews." [ref=e749]':
+              - generic [ref=e753] [cursor=pointer]:
+                - generic [ref=e758]:
+                  - 'img "Le Labo Santal 33 Eau De Parfum Spray 1.7 Oz, 50ml - New Beauty | Color: White" [ref=e762]'
+                  - generic [ref=e764]: "Le Labo Santal 33 Eau De Parfum Spray 1.7 Oz, 50ml - New Beauty | Color: White"
+                  - 'group "Current Price: $178.53." [ref=e766]':
+                    - generic [ref=e769]: $178.53
+                  - generic [ref=e775]: Mercari
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e777]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e778]:
+                      - text: "4.4"
+                      - img [ref=e779]
+                      - text: (5.8K)
+                - button [ref=e782]
+          - listitem [ref=e784]:
+            - 'button "Le Labo Santal 33 Eau de Parfum Spray 3.4 Oz For Unisex New In Box Le Labo Santal 33 Eau de Parfum Spray 3.4 Oz For Unisex New In Box Current Price: $59.99. eBay Rated 4.4 out of 5. 5.8K reviews." [ref=e787]':
+              - generic [ref=e791] [cursor=pointer]:
+                - generic [ref=e796]:
+                  - img "Le Labo Santal 33 Eau de Parfum Spray 3.4 Oz For Unisex New In Box" [ref=e800]
+                  - generic [ref=e802]: Le Labo Santal 33 Eau de Parfum Spray 3.4 Oz For Unisex New In Box
+                  - 'group "Current Price: $59.99." [ref=e804]':
+                    - generic [ref=e807]: $59.99
+                  - generic [ref=e813]: eBay
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e815]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e816]:
+                      - text: "4.4"
+                      - img [ref=e817]
+                      - text: (5.8K)
+                - button [ref=e820]
+          - listitem [ref=e822]:
+            - 'button "Santal 33 50ml Santal 33 50ml Current Price: $34.00. Whatnot" [ref=e825]':
+              - generic [ref=e829] [cursor=pointer]:
+                - generic [ref=e834]:
+                  - img "Santal 33 50ml" [ref=e838]
+                  - generic [ref=e840]: Santal 33 50ml
+                  - 'group "Current Price: $34.00." [ref=e842]':
+                    - generic [ref=e845]: $34.00
+                  - generic [ref=e851]: Whatnot
+                - button [ref=e852]
+          - listitem [ref=e854]:
+            - 'button "Le Labo Santal 33 Eau de Parfum Unisex Fragrance 50ml Le Labo Santal 33 Eau de Parfum Unisex Fragrance 50ml Current Price: $339.25. Foreign Price: £249 McGrocer 14-day returns" [ref=e857]':
+              - generic [ref=e861] [cursor=pointer]:
+                - generic [ref=e866]:
+                  - img "Le Labo Santal 33 Eau de Parfum Unisex Fragrance 50ml" [ref=e870]
+                  - generic [ref=e872]: Le Labo Santal 33 Eau de Parfum Unisex Fragrance 50ml
+                  - 'group "Current Price: $339.25. Foreign Price: £249" [ref=e874]':
+                    - generic [ref=e876]:
+                      - generic [ref=e877]: $339.25
+                      - generic [ref=e878]: (£249)
+                  - generic [ref=e884]: McGrocer
+                  - generic [ref=e887]: 14-day returns
+                - button [ref=e888]
+          - listitem [ref=e890]:
+            - 'button "Santal 33 Le Labo Impression - Sandalwood Dream - 50mL - 100% Perfume Oil - Eternal Perfume Oil - Unisex - Perfume Dupe - Long-Lasting Perfume Oil Santal 33 Le Labo Impression - Sandalwood Dream - 50mL - 100% Perfume Oil - Eternal Perfume Oil - Unisex - Perfume Dupe - Long-Lasting Perfume Oil Current Price: $59.00. Eternal Perfume Oils 30-day returns Rated 4.6 out of 5. 331 reviews." [ref=e893]':
+              - generic [ref=e897] [cursor=pointer]:
+                - generic [ref=e902]:
+                  - img "Santal 33 Le Labo Impression - Sandalwood Dream - 50mL - 100% Perfume Oil - Eternal Perfume Oil - Unisex - Perfume Dupe - Long-Lasting Perfume Oil" [ref=e906]
+                  - generic [ref=e908]: Santal 33 Le Labo Impression - Sandalwood Dream - 50mL - 100% Perfume Oil - Eternal Perfume Oil - Unisex - Perfume Dupe - Long-Lasting Perfume Oil
+                  - 'group "Current Price: $59.00." [ref=e910]':
+                    - generic [ref=e913]: $59.00
+                  - generic [ref=e919]: Eternal Perfume Oils
+                  - generic [ref=e922]: 30-day returns
+                  - img "Rated 4.6 out of 5. 331 reviews." [ref=e924]:
+                    - img "Rated 4.6 out of 5, 331 user reviews" [ref=e925]:
+                      - text: "4.6"
+                      - img [ref=e926]
+                      - text: (331)
+                - button [ref=e929]
+          - listitem [ref=e931]:
+            - 'button "15% OFF. Le Labo Santal 33 50ml 1.7oz - Beauty | Color: White Le Labo Santal 33 50ml 1.7oz - Beauty | Color: White Current Price: $101.00. Pre-owned. Mercari Free delivery 3-day returns Rated 4.4 out of 5. 5.9K reviews." [ref=e934]':
+              - generic [ref=e938] [cursor=pointer]:
+                - generic [ref=e943]:
+                  - generic [ref=e945]:
+                    - img "15% OFF." [ref=e946]:
+                      - generic [ref=e948]: 15% OFF
+                    - 'img "Le Labo Santal 33 50ml 1.7oz - Beauty | Color: White" [ref=e950]'
+                  - generic [ref=e952]: "Le Labo Santal 33 50ml 1.7oz - Beauty | Color: White"
+                  - 'group "Current Price: $101.00. Pre-owned." [ref=e954]':
+                    - generic [ref=e956]:
+                      - generic [ref=e957]: $101.00
+                      - generic [ref=e958]: Pre-owned
+                  - generic [ref=e964]: Mercari
+                  - generic [ref=e967]: Free delivery
+                  - generic [ref=e970]: 3-day returns
+                  - img "Rated 4.4 out of 5. 5.9K reviews." [ref=e972]:
+                    - img "Rated 4.4 out of 5, 5.9K user reviews" [ref=e973]:
+                      - text: "4.4"
+                      - img [ref=e974]
+                      - text: (5.9K)
+                - button [ref=e977]
+          - listitem [ref=e979]:
+            - 'button "Le Labo Santal 33 EDP 1.7o.z-50mL Unisex Le Labo Santal 33 EDP 1.7o.z-50mL Unisex Current Price: $369.00. eBay - geraz-9286 Rated 4.4 out of 5. 5.8K reviews." [ref=e982]':
+              - generic [ref=e986] [cursor=pointer]:
+                - generic [ref=e991]:
+                  - img "Le Labo Santal 33 EDP 1.7o.z-50mL Unisex" [ref=e995]
+                  - generic [ref=e997]: Le Labo Santal 33 EDP 1.7o.z-50mL Unisex
+                  - 'group "Current Price: $369.00." [ref=e999]':
+                    - generic [ref=e1002]: $369.00
+                  - generic [ref=e1008]: eBay - geraz-9286
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e1010]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e1011]:
+                      - text: "4.4"
+                      - img [ref=e1012]
+                      - text: (5.8K)
+                - button [ref=e1015]
+          - listitem [ref=e1017]:
+            - 'button "Le Labo: Santal 33 (U) Type Le Labo: Santal 33 (U) Type Current Price: $54.95. Africa Imports Free delivery on $399+ 30-day returns Rated 4.5 out of 5. 2 reviews." [ref=e1020]':
+              - generic [ref=e1024] [cursor=pointer]:
+                - generic [ref=e1029]:
+                  - 'img "Le Labo: Santal 33 (U) Type" [ref=e1033]'
+                  - generic [ref=e1035]: "Le Labo: Santal 33 (U) Type"
+                  - 'group "Current Price: $54.95." [ref=e1037]':
+                    - generic [ref=e1040]: $54.95
+                  - generic [ref=e1046]: Africa Imports
+                  - generic [ref=e1049]: Free delivery on $399+
+                  - generic [ref=e1052]: 30-day returns
+                  - img "Rated 4.5 out of 5. 2 reviews." [ref=e1054]:
+                    - img "Rated 4.5 out of 5, 2 user reviews" [ref=e1055]:
+                      - text: "4.5"
+                      - img [ref=e1056]
+                      - text: (2)
+                - button [ref=e1059]
+          - listitem [ref=e1061]:
+            - 'button "Le Labo 33 Home And Away Eau de Parfum Duo Le Labo 33 Home And Away Eau de Parfum Duo Current Price: $322.08. Cult Beauty Free delivery 30-day returns Rated 4.4 out of 5. 5.8K reviews." [ref=e1064]':
+              - generic [ref=e1068] [cursor=pointer]:
+                - generic [ref=e1073]:
+                  - img "Le Labo 33 Home And Away Eau de Parfum Duo" [ref=e1077]
+                  - generic [ref=e1079]: Le Labo 33 Home And Away Eau de Parfum Duo
+                  - 'group "Current Price: $322.08." [ref=e1081]':
+                    - generic [ref=e1084]: $322.08
+                  - generic [ref=e1090]: Cult Beauty
+                  - generic [ref=e1093]: Free delivery
+                  - generic [ref=e1096]: 30-day returns
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e1098]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e1099]:
+                      - text: "4.4"
+                      - img [ref=e1100]
+                      - text: (5.8K)
+                - button [ref=e1103]
+          - listitem [ref=e1105]:
+            - 'button "Le Labo Le Labo-Santal 33 Unisex EDP Spray 1.7oz/50ml Authentic & Sealed 2023 Batch NIB - New Beauty | Color: Brown Le Labo Le Labo-Santal 33 Unisex EDP Spray 1.7oz/50ml Authentic & Sealed 2023 Batch NIB - New Beauty | Color: Brown Current Price: $209.00. Mercari Free delivery Rated 4.4 out of 5. 5.9K reviews." [ref=e1108]':
+              - generic [ref=e1112] [cursor=pointer]:
+                - generic [ref=e1117]:
+                  - 'img "Le Labo Le Labo-Santal 33 Unisex EDP Spray 1.7oz/50ml Authentic & Sealed 2023 Batch NIB - New Beauty | Color: Brown" [ref=e1121]'
+                  - generic [ref=e1123]: "Le Labo Le Labo-Santal 33 Unisex EDP Spray 1.7oz/50ml Authentic & Sealed 2023 Batch NIB - New Beauty | Color: Brown"
+                  - 'group "Current Price: $209.00." [ref=e1125]':
+                    - generic [ref=e1128]: $209.00
+                  - generic [ref=e1134]: Mercari
+                  - generic [ref=e1137]: Free delivery
+                  - img "Rated 4.4 out of 5. 5.9K reviews." [ref=e1139]:
+                    - img "Rated 4.4 out of 5, 5.9K user reviews" [ref=e1140]:
+                      - text: "4.4"
+                      - img [ref=e1141]
+                      - text: (5.9K)
+                - button [ref=e1144]
+        - list [ref=e1160]:
+          - listitem [ref=e1162]:
+            - 'button "Le Labo Santal 33 Spray For Unisex Eau De Parfum Edp In Box 3.4 Le Labo Santal 33 Spray For Unisex Eau De Parfum Edp In Box 3.4 Current Price: $37.54. eBay Free delivery 30-day returns Rated 4.4 out of 5. 5.8K reviews." [ref=e1165]':
+              - generic [ref=e1169] [cursor=pointer]:
+                - generic [ref=e1174]:
+                  - img "Le Labo Santal 33 Spray For Unisex Eau De Parfum Edp In Box 3.4" [ref=e1178]
+                  - generic [ref=e1180]: Le Labo Santal 33 Spray For Unisex Eau De Parfum Edp In Box 3.4
+                  - 'group "Current Price: $37.54." [ref=e1182]':
+                    - generic [ref=e1185]: $37.54
+                  - generic [ref=e1191]: eBay
+                  - generic [ref=e1194]: Free delivery
+                  - generic [ref=e1197]: 30-day returns
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e1199]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e1200]:
+                      - text: "4.4"
+                      - img [ref=e1201]
+                      - text: (5.8K)
+                - button [ref=e1204]
+          - listitem [ref=e1206]:
+            - 'button "Le Labo Santal 33 EDP 1.50ml Sample Spray Decant Unisex Le Labo Santal 33 EDP 1.50ml Sample Spray Decant Unisex Current Price: $9.97. Was $14. MicroPerfumes.com Free delivery on $59+ 30-day returns Rated 4.4 out of 5. 5.8K reviews." [ref=e1209]':
+              - generic [ref=e1213] [cursor=pointer]:
+                - generic [ref=e1218]:
+                  - img "Le Labo Santal 33 EDP 1.50ml Sample Spray Decant Unisex" [ref=e1222]
+                  - generic [ref=e1224]: Le Labo Santal 33 EDP 1.50ml Sample Spray Decant Unisex
+                  - 'group "Current Price: $9.97. Was $14." [ref=e1226]':
+                    - generic [ref=e1228]:
+                      - generic [ref=e1229]: $9.97
+                      - generic [ref=e1230]: $14
+                  - generic [ref=e1236]: MicroPerfumes.com
+                  - generic [ref=e1239]: Free delivery on $59+
+                  - generic [ref=e1242]: 30-day returns
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e1244]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e1245]:
+                      - text: "4.4"
+                      - img [ref=e1246]
+                      - text: (5.8K)
+                - button [ref=e1249]
+          - listitem [ref=e1251]:
+            - 'button "Santal 33 Sample by Le Labo Santal 33 Sample by Le Labo Current Price: $7.99. Scent Split Free delivery on $70+ 30-day returns Rated 4.4 out of 5. 5.8K reviews." [ref=e1254]':
+              - generic [ref=e1258] [cursor=pointer]:
+                - generic [ref=e1263]:
+                  - img "Santal 33 Sample by Le Labo" [ref=e1267]
+                  - generic [ref=e1269]: Santal 33 Sample by Le Labo
+                  - 'group "Current Price: $7.99." [ref=e1271]':
+                    - generic [ref=e1274]: $7.99
+                  - generic [ref=e1280]: Scent Split
+                  - generic [ref=e1283]: Free delivery on $70+
+                  - generic [ref=e1286]: 30-day returns
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e1288]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e1289]:
+                      - text: "4.4"
+                      - img [ref=e1290]
+                      - text: (5.8K)
+                - button [ref=e1293]
+          - listitem [ref=e1295]:
+            - 'button "Le Labo Santal 33 parfum Le Labo Santal 33 parfum Current Price: $135.00. eBay Rated 4.4 out of 5. 5.9K reviews." [ref=e1298]':
+              - generic [ref=e1302] [cursor=pointer]:
+                - generic [ref=e1307]:
+                  - img "Le Labo Santal 33 parfum" [ref=e1311]
+                  - generic [ref=e1313]: Le Labo Santal 33 parfum
+                  - 'group "Current Price: $135.00." [ref=e1315]':
+                    - generic [ref=e1318]: $135.00
+                  - generic [ref=e1324]: eBay
+                  - img "Rated 4.4 out of 5. 5.9K reviews." [ref=e1326]:
+                    - img "Rated 4.4 out of 5, 5.9K user reviews" [ref=e1327]:
+                      - text: "4.4"
+                      - img [ref=e1328]
+                      - text: (5.9K)
+                - button [ref=e1331]
+          - listitem [ref=e1333]:
+            - 'button "25% OFF. Santal 33 L Labo Type By Scentville EDP Spray 50ml Santal 33 L Labo Type By Scentville EDP Spray 50ml Current Price: $22.49. Was $30. Etsy - Seller Rated 4.0 out of 5. 14 reviews." [ref=e1336]':
+              - generic [ref=e1340] [cursor=pointer]:
+                - generic [ref=e1345]:
+                  - generic [ref=e1347]:
+                    - img "25% OFF." [ref=e1348]:
+                      - generic [ref=e1350]: 25% OFF
+                    - img "Santal 33 L Labo Type By Scentville EDP Spray 50ml" [ref=e1352]
+                  - generic [ref=e1354]: Santal 33 L Labo Type By Scentville EDP Spray 50ml
+                  - 'group "Current Price: $22.49. Was $30." [ref=e1356]':
+                    - generic [ref=e1358]:
+                      - generic [ref=e1359]: $22.49
+                      - generic [ref=e1360]: $30
+                  - generic [ref=e1366]: Etsy - Seller
+                  - img "Rated 4.0 out of 5. 14 reviews." [ref=e1368]:
+                    - img "Rated 4.0 out of 5, 14 user reviews" [ref=e1369]:
+                      - text: "4.0"
+                      - img [ref=e1370]
+                      - text: (14)
+                - button [ref=e1373]
+          - listitem [ref=e1375]:
+            - 'button "Le Labo Fragrances Santal 33 & Another 13 Set Eau de Parfum Le Labo Fragrances Santal 33 & Another 13 Set Eau de Parfum Current Price: $220.00. Le Labo Free delivery" [ref=e1378]':
+              - generic [ref=e1382] [cursor=pointer]:
+                - generic [ref=e1387]:
+                  - img "Le Labo Fragrances Santal 33 & Another 13 Set Eau de Parfum" [ref=e1391]
+                  - generic [ref=e1393]: Le Labo Fragrances Santal 33 & Another 13 Set Eau de Parfum
+                  - 'group "Current Price: $220.00." [ref=e1395]':
+                    - generic [ref=e1398]: $220.00
+                  - generic [ref=e1404]: Le Labo
+                  - generic [ref=e1407]: Free delivery
+                - button [ref=e1408]
+          - listitem [ref=e1410]:
+            - 'button "Le Labo Fragrances Santal 33 Eau de Parfum & Body Set Le Labo Fragrances Santal 33 Eau de Parfum & Body Set Current Price: $325.00. Le Labo Free delivery" [ref=e1413]':
+              - generic [ref=e1417] [cursor=pointer]:
+                - generic [ref=e1422]:
+                  - img "Le Labo Fragrances Santal 33 Eau de Parfum & Body Set" [ref=e1426]
+                  - generic [ref=e1428]: Le Labo Fragrances Santal 33 Eau de Parfum & Body Set
+                  - 'group "Current Price: $325.00." [ref=e1430]':
+                    - generic [ref=e1433]: $325.00
+                  - generic [ref=e1439]: Le Labo
+                  - generic [ref=e1442]: Free delivery
+                - button [ref=e1443]
+          - listitem [ref=e1445]:
+            - 'button "SANTAL33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex... SANTAL33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex... Current Price: $445.00. eBay Free delivery 30-day returns Rated 4.4 out of 5. 5.9K reviews." [ref=e1448]':
+              - generic [ref=e1452] [cursor=pointer]:
+                - generic [ref=e1457]:
+                  - img "SANTAL33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex..." [ref=e1461]
+                  - generic [ref=e1463]: SANTAL33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex...
+                  - 'group "Current Price: $445.00." [ref=e1465]':
+                    - generic [ref=e1468]: $445.00
+                  - generic [ref=e1474]: eBay
+                  - generic [ref=e1477]: Free delivery
+                  - generic [ref=e1480]: 30-day returns
+                  - img "Rated 4.4 out of 5. 5.9K reviews." [ref=e1482]:
+                    - img "Rated 4.4 out of 5, 5.9K user reviews" [ref=e1483]:
+                      - text: "4.4"
+                      - img [ref=e1484]
+                      - text: (5.9K)
+                - button [ref=e1487]
+          - listitem [ref=e1489]:
+            - 'button "Santal 33 Le Labo Massage Oil Santal 33 Le Labo Massage Oil Current Price: $85.00. Fairmont Store US 30-day returns Rated 5.0 out of 5. 1 reviews." [ref=e1492]':
+              - generic [ref=e1496] [cursor=pointer]:
+                - generic [ref=e1501]:
+                  - img "Santal 33 Le Labo Massage Oil" [ref=e1505]
+                  - generic [ref=e1507]: Santal 33 Le Labo Massage Oil
+                  - 'group "Current Price: $85.00." [ref=e1509]':
+                    - generic [ref=e1512]: $85.00
+                  - generic [ref=e1518]: Fairmont Store US
+                  - generic [ref=e1521]: 30-day returns
+                  - img "Rated 5.0 out of 5. 1 reviews." [ref=e1523]:
+                    - img "Rated 5.0 out of 5, 1 user review" [ref=e1524]:
+                      - text: "5.0"
+                      - img [ref=e1525]
+                      - text: (1)
+                - button [ref=e1528]
+          - listitem [ref=e1530]:
+            - 'button "Le Labo Santal 33 Authentic - New Beauty Le Labo Santal 33 Authentic - New Beauty Current Price: $163.00. Mercari Free delivery 3-day returns Rated 4.4 out of 5. 5.9K reviews." [ref=e1533]':
+              - generic [ref=e1537] [cursor=pointer]:
+                - generic [ref=e1542]:
+                  - img "Le Labo Santal 33 Authentic - New Beauty" [ref=e1546]
+                  - generic [ref=e1548]: Le Labo Santal 33 Authentic - New Beauty
+                  - 'group "Current Price: $163.00." [ref=e1550]':
+                    - generic [ref=e1553]: $163.00
+                  - generic [ref=e1559]: Mercari
+                  - generic [ref=e1562]: Free delivery
+                  - generic [ref=e1565]: 3-day returns
+                  - img "Rated 4.4 out of 5. 5.9K reviews." [ref=e1567]:
+                    - img "Rated 4.4 out of 5, 5.9K user reviews" [ref=e1568]:
+                      - text: "4.4"
+                      - img [ref=e1569]
+                      - text: (5.9K)
+                - button [ref=e1572]
+        - list [ref=e1588]:
+          - listitem [ref=e1590]:
+            - 'button "Le Labo Santal 33 Body Mist Le Labo Santal 33 Body Mist Current Price: $2.50. Africa Imports Free delivery on $399+ 30-day returns Rated 4.8 out of 5. 35 reviews." [ref=e1593]':
+              - generic [ref=e1597] [cursor=pointer]:
+                - generic [ref=e1602]:
+                  - img "Le Labo Santal 33 Body Mist" [ref=e1606]
+                  - generic [ref=e1608]: Le Labo Santal 33 Body Mist
+                  - 'group "Current Price: $2.50." [ref=e1610]':
+                    - generic [ref=e1613]: $2.50
+                  - generic [ref=e1619]: Africa Imports
+                  - generic [ref=e1622]: Free delivery on $399+
+                  - generic [ref=e1625]: 30-day returns
+                  - img "Rated 4.8 out of 5. 35 reviews." [ref=e1627]:
+                    - img "Rated 4.8 out of 5, 35 user reviews" [ref=e1628]:
+                      - text: "4.8"
+                      - img [ref=e1629]
+                      - text: (35)
+                - button [ref=e1632]
+          - listitem [ref=e1634]:
+            - 'button "63% OFF. SANT33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex Eau De Parfume 50ml 1.7oz SANT33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex Eau De Parfume 50ml 1.7oz Current Price: $25.37. Was $70. AliExpress Free delivery" [ref=e1637]':
+              - generic [ref=e1641] [cursor=pointer]:
+                - generic [ref=e1646]:
+                  - generic [ref=e1648]:
+                    - img "63% OFF." [ref=e1649]:
+                      - generic [ref=e1651]: 63% OFF
+                    - img "SANT33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex Eau De Parfume 50ml 1.7oz" [ref=e1653]
+                  - generic [ref=e1655]: SANT33, Perfume Spray - Iconic Scent of New York A Cult Fragrance Unisex Eau De Parfume 50ml 1.7oz
+                  - 'group "Current Price: $25.37. Was $70." [ref=e1657]':
+                    - generic [ref=e1659]:
+                      - generic [ref=e1660]: $25.37
+                      - generic [ref=e1661]: $70
+                  - generic [ref=e1667]: AliExpress
+                  - generic [ref=e1670]: Free delivery
+                - button [ref=e1671]
+          - listitem [ref=e1673]:
+            - 'button "LE LABOSANTAL 33 | FRAGRANCES OIL | 100% PURE | Fragrance Oil LE LABOSANTAL 33 | FRAGRANCES OIL | 100% PURE | Fragrance Oil Current Price: $32.99. eBay - king_natural_products Free delivery by Mon 30-day returns" [ref=e1676]':
+              - generic [ref=e1680] [cursor=pointer]:
+                - generic [ref=e1685]:
+                  - img "LE LABOSANTAL 33 | FRAGRANCES OIL | 100% PURE | Fragrance Oil" [ref=e1689]
+                  - generic [ref=e1691]: LE LABOSANTAL 33 | FRAGRANCES OIL | 100% PURE | Fragrance Oil
+                  - 'group "Current Price: $32.99." [ref=e1693]':
+                    - generic [ref=e1696]: $32.99
+                  - generic [ref=e1702]: eBay - king_natural_products
+                  - generic [ref=e1705]: Free delivery by Mon
+                  - generic [ref=e1708]: 30-day returns
+                - button [ref=e1709]
+          - listitem [ref=e1711]:
+            - 'button "Santal 33 Pure Unisex Fragrance Santal 33 Pure Unisex Fragrance Current Price: $90.00. Nantucket Perfume Company 60-day returns" [ref=e1714]':
+              - generic [ref=e1718] [cursor=pointer]:
+                - generic [ref=e1723]:
+                  - img "Santal 33 Pure Unisex Fragrance" [ref=e1727]
+                  - generic [ref=e1729]: Santal 33 Pure Unisex Fragrance
+                  - 'group "Current Price: $90.00." [ref=e1731]':
+                    - generic [ref=e1734]: $90.00
+                  - generic [ref=e1740]: Nantucket Perfume Company
+                  - generic [ref=e1743]: 60-day returns
+                - button [ref=e1744]
+          - listitem [ref=e1746]:
+            - 'button "Santal 33 Le Labo Body Oil Santal 33 Le Labo Body Oil Current Price: $40.00. Oils Unkut" [ref=e1749]':
+              - generic [ref=e1753] [cursor=pointer]:
+                - generic [ref=e1758]:
+                  - img "Santal 33 Le Labo Body Oil" [ref=e1762]
+                  - generic [ref=e1764]: Santal 33 Le Labo Body Oil
+                  - 'group "Current Price: $40.00." [ref=e1766]':
+                    - generic [ref=e1769]: $40.00
+                  - generic [ref=e1775]: Oils Unkut
+                - button [ref=e1776]
+          - listitem [ref=e1778]:
+            - 'button "16% OFF. Le Labo Santal 33 - New Beauty Le Labo Santal 33 - New Beauty Current Price: $150.00. Was $180. Mercari Free delivery Rated 4.4 out of 5. 5.8K reviews." [ref=e1781]':
+              - generic [ref=e1785] [cursor=pointer]:
+                - generic [ref=e1790]:
+                  - generic [ref=e1792]:
+                    - img "16% OFF." [ref=e1793]:
+                      - generic [ref=e1795]: 16% OFF
+                    - img "Le Labo Santal 33 - New Beauty" [ref=e1797]
+                  - generic [ref=e1799]: Le Labo Santal 33 - New Beauty
+                  - 'group "Current Price: $150.00. Was $180." [ref=e1801]':
+                    - generic [ref=e1803]:
+                      - generic [ref=e1804]: $150.00
+                      - generic [ref=e1805]: $180
+                  - generic [ref=e1811]: Mercari
+                  - generic [ref=e1814]: Free delivery
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e1816]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e1817]:
+                      - text: "4.4"
+                      - img [ref=e1818]
+                      - text: (5.8K)
+                - button [ref=e1821]
+          - listitem [ref=e1823]:
+            - 'button "Le Labo Santal 33 Le Labo Santal 33 Current Price: $362.24. eBay Free delivery Rated 4.4 out of 5. 5.8K reviews." [ref=e1826]':
+              - generic [ref=e1830] [cursor=pointer]:
+                - generic [ref=e1835]:
+                  - img "Le Labo Santal 33" [ref=e1839]
+                  - generic [ref=e1841]: Le Labo Santal 33
+                  - 'group "Current Price: $362.24." [ref=e1843]':
+                    - generic [ref=e1846]: $362.24
+                  - generic [ref=e1852]: eBay
+                  - generic [ref=e1855]: Free delivery
+                  - img "Rated 4.4 out of 5. 5.8K reviews." [ref=e1857]:
+                    - img "Rated 4.4 out of 5, 5.8K user reviews" [ref=e1858]:
+                      - text: "4.4"
+                      - img [ref=e1859]
+                      - text: (5.8K)
+                - button [ref=e1862]
+          - listitem [ref=e1864]:
+            - 'button "Santal33 Perfume Santal33 Perfume Current Price: $49.99. On Board Organic Skincare Free delivery on $50+" [ref=e1867]':
+              - generic [ref=e1871] [cursor=pointer]:
+                - generic [ref=e1876]:
+                  - img "Santal33 Perfume" [ref=e1880]
+                  - generic [ref=e1882]: Santal33 Perfume
+                  - 'group "Current Price: $49.99." [ref=e1884]':
+                    - generic [ref=e1887]: $49.99
+                  - generic [ref=e1893]: On Board Organic Skincare
+                  - generic [ref=e1896]: Free delivery on $50+
+                - button [ref=e1897]
+          - listitem [ref=e1899]:
+            - 'button "Le Labo Santal 33 Scent Molecule Concentrated Ultra Premium Perfume Oil - 50ml Le Labo Santal 33 Scent Molecule Concentrated Ultra Premium Perfume Oil - 50ml Current Price: $48.74. Foreign Price: AED 179 Perfumeuae.com Free delivery on $2,723+" [ref=e1902]':
+              - generic [ref=e1906] [cursor=pointer]:
+                - generic [ref=e1911]:
+                  - img "Le Labo Santal 33 Scent Molecule Concentrated Ultra Premium Perfume Oil - 50ml" [ref=e1915]
+                  - generic [ref=e1917]: Le Labo Santal 33 Scent Molecule Concentrated Ultra Premium Perfume Oil - 50ml
+                  - 'group "Current Price: $48.74. Foreign Price: AED 179" [ref=e1919]':
+                    - generic [ref=e1921]:
+                      - generic [ref=e1922]: $48.74
+                      - generic [ref=e1923]: (AED 179)
+                  - generic [ref=e1929]: Perfumeuae.com
+                  - generic [ref=e1932]: Free delivery on $2,723+
+                - button [ref=e1933]
+          - listitem [ref=e1935]:
+            - 'button "Amazing Creation Santal 33 Unisex EDP Amazing Creation Santal 33 Unisex EDP Current Price: $25.25. DubaiOudh Free delivery on $100+ Rated 3.7 out of 5. 3 reviews." [ref=e1938]':
+              - generic [ref=e1942] [cursor=pointer]:
+                - generic [ref=e1947]:
+                  - img "Amazing Creation Santal 33 Unisex EDP" [ref=e1951]
+                  - generic [ref=e1953]: Amazing Creation Santal 33 Unisex EDP
+                  - 'group "Current Price: $25.25." [ref=e1955]':
+                    - generic [ref=e1958]: $25.25
+                  - generic [ref=e1964]: DubaiOudh
+                  - generic [ref=e1967]: Free delivery on $100+
+                  - img "Rated 3.7 out of 5. 3 reviews." [ref=e1969]:
+                    - img "Rated 3.7 out of 5, 3 user reviews" [ref=e1970]:
+                      - text: "3.7"
+                      - img [ref=e1971]
+                      - text: (3)
+                - button [ref=e1974]
+      - generic [ref=e1979]:
+        - heading "Page Navigation" [level=1] [ref=e1980]
+        - button "More results" [ref=e1981] [cursor=pointer]:
+          - generic [ref=e1982]:
+            - separator [ref=e1983]
+            - generic [ref=e1984]:
+              - generic [ref=e1985]: More results
+              - img [ref=e1987]
+      - navigation

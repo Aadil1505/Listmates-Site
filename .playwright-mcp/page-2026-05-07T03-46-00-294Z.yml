@@ -1,0 +1,978 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Turn off continuous scrolling" [ref=e3] [cursor=pointer]:
+        - /url: "#"
+      - link "Accessibility help" [ref=e4] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e5] [cursor=pointer]
+  - banner [ref=e6]:
+    - generic [ref=e9]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - button "Shopping main menu" [ref=e18] [cursor=pointer]:
+              - img "Shopping main menu" [ref=e19]:
+                - img [ref=e21]
+            - link "Shopping Home" [ref=e24] [cursor=pointer]:
+              - /url: /shopping?udm=28&shopmd=2&shopst=Ch5CaXJrZW5zdG9jayBCb3N0b24gc3VlZGUgdGF1cGUSAA&sa=X&ved=0ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQ0rsNCBo
+              - img [ref=e25]
+              - img [ref=e31]
+          - search [ref=e48]:
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - combobox "Search" [ref=e55]: Birkenstock Boston suede taupe Birkenstock Boston suede taupe
+                - generic [ref=e56]:
+                  - button "Clear" [ref=e58] [cursor=pointer]:
+                    - img [ref=e60]
+                  - button "Search by voice" [ref=e63] [cursor=pointer]:
+                    - img [ref=e64]
+                  - button "Search by image" [ref=e66] [cursor=pointer]:
+                    - img [ref=e67]
+              - button "Search" [ref=e69] [cursor=pointer]:
+                - img [ref=e72]
+        - generic [ref=e76]:
+          - button "Google apps" [ref=e79] [cursor=pointer]:
+            - img [ref=e80]
+          - link "Sign in" [ref=e84] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DBirkenstock%2BBoston%2Bsuede%2Btaupe%26udm%3D28&ec=futura_srp_og_si_72236_p
+      - generic [ref=e86]:
+        - generic "Search Google" [ref=e88]:
+          - link [ref=e89] [cursor=pointer]:
+            - /url: /search?q=Birkenstock+Boston+suede+taupe&ved=1t:238573&ictx=111
+            - generic [ref=e90]:
+              - img [ref=e92]
+              - img [ref=e94]
+        - generic [ref=e104]:
+          - link "Search" [ref=e106]:
+            - link "Search" [ref=e107] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=Birkenstock+Boston+suede+taupe&udm=28&shoprs&shopmd=1
+              - generic [ref=e108]: Search
+          - link "Nearby" [ref=e111]:
+            - link "Nearby" [ref=e112] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=Birkenstock+Boston+suede+taupe&udm=28&shopmd=4&shoprs=CAEYAyoeQmlya2Vuc3RvY2sgQm9zdG9uIHN1ZWRlIHRhdXBlMg4IAxIGTmVhcmJ5GAJIAQ&sa=X&ved=0ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQ5YcQCC0oAA
+              - generic [ref=e113]: Nearby
+          - link "Deals" [ref=e115]:
+            - link "Deals" [ref=e116] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=Birkenstock+Boston+suede+taupe&udm=28&shopmd=3&shoprs=CAESBEoCGAEYBioeQmlya2Vuc3RvY2sgQm9zdG9uIHN1ZWRlIHRhdXBlMhUIBhIHT24gc2FsZRgCIgRKAhgBSAE&sa=X&ved=0ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQyPYMCC4oAQ
+              - generic [ref=e117]: Deals
+          - link "For you" [ref=e119]:
+            - link "For you" [ref=e120] [cursor=pointer]:
+              - /url: /shopping?udm=28&shopmd=2&shopst=Ch5CaXJrZW5zdG9jayBCb3N0b24gc3VlZGUgdGF1cGUSAA&sa=X&ved=0ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQx_YMCC8oAg
+              - generic [ref=e121]: For you
+  - generic [ref=e123]:
+    - heading "Search Results" [level=1] [ref=e124]
+    - navigation "Refinement" [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - list [ref=e137]:
+            - button "All filters." [ref=e138] [cursor=pointer]:
+              - img [ref=e140]
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "Women's filter. Not selected." [ref=e144]:
+                - /url: /search?q=women's+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhcIARIHV29tZW4nczoKCICjPhCCoz4wBVjmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKAJ6BAgIEFg
+                - generic [ref=e145]: Women's
+            - listitem [ref=e146] [cursor=pointer]:
+              - link "Men's filter. Not selected." [ref=e148]:
+                - /url: /search?q=men's+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhUIARIFTWVuJ3M6CgiAoz4QgaM-MAVY5qcgYAE&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKAR6BAgIEFo
+                - generic [ref=e149]: Men's
+            - listitem [ref=e150] [cursor=pointer]:
+              - link "On sale filter. Not selected." [ref=e152]:
+                - /url: /search?q=Birkenstock+Boston+suede+taupe+sale&udm=28&shoprs=CAESBEoCGAEYBioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhMIBhIHT24gc2FsZRgCIgRKAhgBWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKAZ6BAgIEFw
+                - generic [ref=e153]: On sale
+            - listitem [ref=e154] [cursor=pointer]:
+              - link "Clogs filter. Not selected." [ref=e156]:
+                - /url: /search?q=clogs+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhcIARIFQ2xvZ3M6DAi0vrYCELi-tgIwAljmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKAh6BAgIEF4
+                - generic [ref=e157]: Clogs
+            - listitem [ref=e158] [cursor=pointer]:
+              - link "Nearby filter. Not selected." [ref=e160]:
+                - /url: /search?q=Birkenstock+Boston+suede+taupe+nearby&udm=28&shoprs=CAEYAyoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMgwIAxIGTmVhcmJ5GAJY5qcgYAE&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKAp6BAgIEGA
+                - img [ref=e164]
+                - generic [ref=e167]: Nearby
+            - listitem [ref=e168] [cursor=pointer]:
+              - link "Unisex filter. Not selected." [ref=e170]:
+                - /url: /search?q=unisex+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhYIARIGVW5pc2V4OgoIgKM-EIOjPjAFWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKAx6BAgIEGI
+                - generic [ref=e171]: Unisex
+            - listitem [ref=e172] [cursor=pointer]:
+              - link "Get it tomorrow filter. Not selected." [ref=e174]:
+                - /url: /search?q=birkenstock+boston+suede+taupe&udm=28&shoprs=CAESDZoBCgoIEAE4AUAESAEYFCoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMigIFBIPR2V0IGl0IHRvbW9ycm93Ig2aAQoKCBABOAFABEgBKgQQARgBYAE&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKA56BAgIEGQ
+                - generic [ref=e175]: Get it tomorrow
+            - listitem [ref=e176] [cursor=pointer]:
+              - link "Zappos.com filter. Not selected." [ref=e178]:
+                - /url: /search?q=zappos.com+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYAioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMg4IAhIKWmFwcG9zLmNvbVjmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKBB6BAgIEGY
+                - img [ref=e181]
+                - generic [ref=e182]: Zappos.com
+            - listitem [ref=e183] [cursor=pointer]:
+              - link "Sandals filter. Not selected." [ref=e185]:
+                - /url: /search?q=sandals+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYCSoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMgsICRIHU2FuZGFsc2AB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKBJ6BAgIEGk
+                - generic [ref=e186]: Sandals
+            - listitem [ref=e187] [cursor=pointer]:
+              - link "Genuine Suede filter. Not selected." [ref=e189]:
+                - /url: /search?q=genuine+suede+birkenstock+boston+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMh0IARINR2VudWluZSBTdWVkZToKCPaSYxCMk2MwAFjmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKBR6BAgIEGs
+                - generic [ref=e190]: Genuine Suede
+            - listitem [ref=e191] [cursor=pointer]:
+              - link "Shoes filter. Not selected." [ref=e193]:
+                - /url: /search?q=shoes+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYCSoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMgkICRIFU2hvZXNgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKBZ6BAgIEG0
+                - generic [ref=e194]: Shoes
+            - listitem [ref=e195] [cursor=pointer]:
+              - link "Under $100 filter. Not selected." [ref=e197]:
+                - /url: /search?q=Birkenstock+Boston+suede+taupe+under+$100&udm=28&shoprs=CAESDRILEQAAAACE15dBGAEYBSoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMiMIBRIKVW5kZXIgJDEwMBgCIg0SCxEAAAAAhNeXQRgBKgIYAVjmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKBh6BAgIEG8
+                - generic [ref=e198]: Under $100
+            - listitem [ref=e199] [cursor=pointer]:
+              - link "Cushioning filter. Not selected." [ref=e201]:
+                - /url: /search?q=cushioning+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhwIARIKQ3VzaGlvbmluZzoMCKPznAMQoPWcAzAAWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKBp6BAgIEHE
+                - generic [ref=e202]: Cushioning
+            - listitem [ref=e203] [cursor=pointer]:
+              - link "Poshmark filter. Not selected." [ref=e205]:
+                - /url: /search?q=poshmark+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYAioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMgwIAhIIUG9zaG1hcmtY5qcgYAE&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKBx6BAgIEHM
+                - img [ref=e208]
+                - generic [ref=e209]: Poshmark
+            - listitem [ref=e210] [cursor=pointer]:
+              - link "With Arch Support filter. Not selected." [ref=e212]:
+                - /url: /search?q=birkenstock+boston+suede+taupe+with+arch+support&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMiUIARIRV2l0aCBBcmNoIFN1cHBvcnQYAjoMCI2VmAMQgaCYAzADWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKB56BAgIEHY
+                - generic [ref=e213]: With Arch Support
+            - listitem [ref=e214] [cursor=pointer]:
+              - link "Dillard's filter. Not selected." [ref=e216]:
+                - /url: /search?q=dillard's+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYAioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMg0IAhIJRGlsbGFyZCdzWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKCB6BAgIEHg
+                - img [ref=e219]
+                - generic [ref=e220]: Dillard's
+            - listitem [ref=e221] [cursor=pointer]:
+              - link "StockX filter. Not selected." [ref=e223]:
+                - /url: /search?q=stockx+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYAioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMgoIAhIGU3RvY2tYWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKCJ6BAgIEHs
+                - img [ref=e226]
+                - generic [ref=e227]: StockX
+            - listitem [ref=e228] [cursor=pointer]:
+              - link "Buckle filter. Not selected." [ref=e230]:
+                - /url: /search?q=buckle+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhgIARIGQnVja2xlOgwItZCKAhC5kIoCMABY5qcgYAE&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKCR6BAgIEH4
+                - generic [ref=e231]: Buckle
+            - listitem [ref=e232] [cursor=pointer]:
+              - link "Round filter. Not selected." [ref=e234]:
+                - /url: /search?q=round+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhcIARIFUm91bmQ6DAjZm5IEENqXkgQwAFjmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKCZ6BQgIEIAB
+                - generic [ref=e235]: Round
+            - listitem [ref=e236] [cursor=pointer]:
+              - link "Breathable filter. Not selected." [ref=e238]:
+                - /url: /search?q=breathable+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhwIARIKQnJlYXRoYWJsZToMCOvrlwMQ4ouYAzADWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKCh6BQgIEIIB
+                - generic [ref=e239]: Breathable
+            - listitem [ref=e240] [cursor=pointer]:
+              - link "Shearling filter. Not selected." [ref=e242]:
+                - /url: /search?q=shearling+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhkIARIJU2hlYXJsaW5nOgoI9pJjEJ6TYzAAWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKCp6BQgIEIQB
+                - generic [ref=e243]: Shearling
+            - listitem [ref=e244] [cursor=pointer]:
+              - link "DSW filter. Not selected." [ref=e246]:
+                - /url: /search?q=dsw+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYAioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMgcIAhIDRFNXWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKCx6BQgIEIYB
+                - img [ref=e249]
+                - generic [ref=e250]: DSW
+            - listitem [ref=e251] [cursor=pointer]:
+              - link "eBay filter. Not selected." [ref=e253]:
+                - /url: /search?q=ebay+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYAioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMggIAhIEZUJheVjmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKC56BQgIEIkB
+                - img [ref=e256]
+                - generic [ref=e257]: eBay
+            - listitem [ref=e258] [cursor=pointer]:
+              - link "Macy's filter. Not selected." [ref=e260]:
+                - /url: /search?q=macy's+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYAioeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMgoIAhIGTWFjeSdzWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKDB6BQgIEIwB
+                - img [ref=e263]
+                - generic [ref=e264]: Macy's
+            - listitem [ref=e265] [cursor=pointer]:
+              - link "Rubber Outsole filter. Not selected." [ref=e267]:
+                - /url: /search?q=rubber+outsole+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMiAIARIOUnViYmVyIE91dHNvbGU6DAiG-pwDEJ73nAMwAFjmpyBgAQ&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKDJ6BQgIEI8B
+                - generic [ref=e268]: Rubber Outsole
+            - listitem [ref=e269] [cursor=pointer]:
+              - link "Leather filter. Not selected." [ref=e271]:
+                - /url: /search?q=leather+birkenstock+boston+suede+taupe&udm=28&shoprs=CAEYASoeYmlya2Vuc3RvY2sgYm9zdG9uIHN1ZWRlIHRhdXBlMhkIARIHTGVhdGhlcjoMCOTnnAMQ8ficAzAAWOanIGAB&sa=X&ved=2ahUKEwj6rt7yoaaUAxUQMlkFHcXlIOsQip4GKDR6BQgIEJEB
+                - generic [ref=e272]: Leather
+          - button [ref=e273] [cursor=pointer]:
+            - img [ref=e276]
+        - combobox [ref=e282] [cursor=pointer]:
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - generic [ref=e285]: "Sort by:"
+              - generic [ref=e286]: Relevance
+            - img [ref=e288]
+    - main [ref=e293]:
+      - generic [ref=e298]:
+        - generic [ref=e303]:
+          - heading "Browse products" [level=2] [ref=e306]
+          - list "Shopping Unit Products Navigation. Navigate through the view to get individual prices and links to merchant websites." [ref=e315]:
+            - listitem [ref=e316]:
+              - generic "Go to product viewer for this item." [ref=e317]:
+                - 'button "Birkenstock Men''s Boston Soft Footbed Clogs, 12/12.5 US (45 EU), Taupe. Nearby, 14 mi Birkenstock Men''s Boston Soft Footbed Clogs, 12/12.5 US (45 EU), Taupe Current Price: $169.95. DICK''S Sporting Goods Free delivery Rated 4.5 out of 5. 5.7K reviews. Birkenstock Men''s Boston Soft Footbed Clogs, 12/12.5 US (45 EU), Taupe. Nearby, 14 mi. Current Price: $169.95. DICK''S Sporting Goods. Free delivery. Free 90-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e319]':
+                  - generic [ref=e320]:
+                    - generic [ref=e326]:
+                      - generic [ref=e327]:
+                        - img "Birkenstock Men's Boston Soft Footbed Clogs, 12/12.5 US (45 EU), Taupe." [ref=e331]
+                        - generic [ref=e335]:
+                          - img [ref=e337]
+                          - text: Nearby, 14 mi
+                      - generic [ref=e341]: Birkenstock Men's Boston Soft Footbed Clogs, 12/12.5 US (45 EU), Taupe
+                      - 'group "Current Price: $169.95." [ref=e343]':
+                        - generic [ref=e346]: $169.95
+                      - generic [ref=e352]: DICK'S Sporting Goods
+                      - generic [ref=e355]: Free delivery
+                      - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e357]:
+                        - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e358]:
+                          - text: "4.5"
+                          - img [ref=e359]
+                          - text: (5.7K)
+                    - 'button "Birkenstock Men''s Boston Soft Footbed Clogs, 12/12.5 US (45 EU), Taupe. Nearby, 14 mi. Current Price: $169.95. DICK''S Sporting Goods. Free delivery. Free 90-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e362] [cursor=pointer]'
+            - listitem [ref=e363]:
+              - generic "Go to product viewer for this item." [ref=e364]:
+                - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Taupe Clogs. BIRKENSTOCK Boston Soft Footbed Suede Leather Taupe Clogs Current Price: $169.95. BIRKENSTOCK Rated 4.5 out of 5. 5.7K reviews. BIRKENSTOCK Boston Soft Footbed Suede Leather Taupe Clogs. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e366]':
+                  - generic [ref=e367]:
+                    - generic [ref=e373]:
+                      - img "BIRKENSTOCK Boston Soft Footbed Suede Leather Taupe Clogs." [ref=e378]
+                      - generic [ref=e380]: BIRKENSTOCK Boston Soft Footbed Suede Leather Taupe Clogs
+                      - 'group "Current Price: $169.95." [ref=e382]':
+                        - generic [ref=e385]: $169.95
+                      - generic [ref=e391]: BIRKENSTOCK
+                      - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e393]:
+                        - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e394]:
+                          - text: "4.5"
+                          - img [ref=e395]
+                          - text: (5.7K)
+                    - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Taupe Clogs. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e398] [cursor=pointer]'
+            - listitem [ref=e399]:
+              - generic "20% OFF. Go to product viewer for this item." [ref=e400]:
+                - 'button "20% OFF. Birkenstock Boston. 20% OFF. Birkenstock Boston Current Price: $127.00. Was $160. GOAT & more Rated 4.5 out of 5. 5.6K reviews. Birkenstock Boston. 20% OFF. Current Price: $127.00. Was $160. GOAT & more. 14-day returns. Rated 4.5 out of 5. 5.6K reviews. Three and more color options available." [ref=e402]':
+                  - generic [ref=e403]:
+                    - generic [ref=e409]:
+                      - generic [ref=e411]:
+                        - img "20% OFF." [ref=e413]:
+                          - generic [ref=e415]: 20% OFF
+                        - img "Birkenstock Boston. 20% OFF." [ref=e418]
+                      - generic [ref=e420]: Birkenstock Boston
+                      - 'group "Current Price: $127.00. Was $160." [ref=e422]':
+                        - generic [ref=e424]:
+                          - generic [ref=e425]: $127.00
+                          - generic [ref=e426]: $160
+                      - generic [ref=e428]:
+                        - generic [ref=e432]: GOAT
+                        - generic [ref=e433]: "& more"
+                      - img "Rated 4.5 out of 5. 5.6K reviews." [ref=e435]:
+                        - img "Rated 4.5 out of 5, 5.6K user reviews" [ref=e436]:
+                          - text: "4.5"
+                          - img [ref=e437]
+                          - text: (5.6K)
+                    - 'button "Birkenstock Boston. 20% OFF. Current Price: $127.00. Was $160. GOAT & more. 14-day returns. Rated 4.5 out of 5. 5.6K reviews. Three and more color options available." [ref=e440] [cursor=pointer]'
+            - listitem [ref=e441]:
+              - generic "Go to product viewer for this item." [ref=e442]:
+                - 'button "BIRKENSTOCK Boston Suede Leather Taupe Clogs. BIRKENSTOCK Boston Suede Leather Taupe Clogs Current Price: $230.00. BIRKENSTOCK Rated 4.5 out of 5. 6K reviews. BIRKENSTOCK Boston Suede Leather Taupe Clogs. Current Price: $230.00. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 6K reviews." [ref=e444]':
+                  - generic [ref=e445]:
+                    - generic [ref=e451]:
+                      - img "BIRKENSTOCK Boston Suede Leather Taupe Clogs." [ref=e456]
+                      - generic [ref=e458]: BIRKENSTOCK Boston Suede Leather Taupe Clogs
+                      - 'group "Current Price: $230.00." [ref=e460]':
+                        - generic [ref=e463]: $230.00
+                      - generic [ref=e469]: BIRKENSTOCK
+                      - img "Rated 4.5 out of 5. 6K reviews." [ref=e471]:
+                        - img "Rated 4.5 out of 5, 6K user reviews" [ref=e472]:
+                          - text: "4.5"
+                          - img [ref=e473]
+                          - text: (6K)
+                    - 'button "BIRKENSTOCK Boston Suede Leather Taupe Clogs. Current Price: $230.00. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 6K reviews." [ref=e476] [cursor=pointer]'
+            - listitem [ref=e477]:
+              - generic "Go to product viewer for this item." [ref=e478]:
+                - 'button "Birkenstock Men''s Boston Soft Footbed Clog Shoes (Taupe) - Size 43.0 M. Nearby, 15 mi Birkenstock Men''s Boston Soft Footbed Clog Shoes (Taupe) - Size 43.0 M Current Price: $169.99. Famous Footwear Rated 4.5 out of 5. 5.7K reviews. Birkenstock Men''s Boston Soft Footbed Clog Shoes (Taupe) - Size 43.0 M. Nearby, 15 mi. Current Price: $169.99. Famous Footwear. Lifetime returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e480]':
+                  - generic [ref=e481]:
+                    - generic [ref=e487]:
+                      - generic [ref=e488]:
+                        - img "Birkenstock Men's Boston Soft Footbed Clog Shoes (Taupe) - Size 43.0 M." [ref=e492]
+                        - generic [ref=e496]:
+                          - img [ref=e498]
+                          - text: Nearby, 15 mi
+                      - generic [ref=e502]: Birkenstock Men's Boston Soft Footbed Clog Shoes (Taupe) - Size 43.0 M
+                      - 'group "Current Price: $169.99." [ref=e504]':
+                        - generic [ref=e507]: $169.99
+                      - generic [ref=e513]: Famous Footwear
+                      - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e515]:
+                        - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e516]:
+                          - text: "4.5"
+                          - img [ref=e517]
+                          - text: (5.7K)
+                    - 'button "Birkenstock Men''s Boston Soft Footbed Clog Shoes (Taupe) - Size 43.0 M. Nearby, 15 mi. Current Price: $169.99. Famous Footwear. Lifetime returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e520] [cursor=pointer]'
+            - listitem [ref=e521]:
+              - generic "360. Go to product viewer for this item." [ref=e522]:
+                - 'button "360. An interactive autorotating 360 image showing the item from different angles. BIRKENSTOCK Boston Braided Suede Leather Taupe Clogs showing in all directions. Use Alt or Option + right or left arrow key to rotate BIRKENSTOCK Boston Braided Suede Leather Taupe Clogs Current Price: $164.95. BIRKENSTOCK Rated 4.5 out of 5. 453 reviews. BIRKENSTOCK Boston Braided Suede Leather Taupe Clogs. 360. Current Price: $164.95. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 453 reviews." [ref=e524]':
+                  - generic [ref=e525]:
+                    - generic [ref=e531]:
+                      - generic [ref=e533]:
+                        - img "360." [ref=e535]:
+                          - generic [ref=e536]:
+                            - img [ref=e538]
+                            - generic [ref=e540]: "360"
+                        - button "An interactive autorotating 360 image showing the item from different angles. BIRKENSTOCK Boston Braided Suede Leather Taupe Clogs showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e541]:
+                          - img
+                      - generic [ref=e543]: BIRKENSTOCK Boston Braided Suede Leather Taupe Clogs
+                      - 'group "Current Price: $164.95." [ref=e545]':
+                        - generic [ref=e548]: $164.95
+                      - generic [ref=e554]: BIRKENSTOCK
+                      - img "Rated 4.5 out of 5. 453 reviews." [ref=e556]:
+                        - img "Rated 4.5 out of 5, 453 user reviews" [ref=e557]:
+                          - text: "4.5"
+                          - img [ref=e558]
+                          - text: (453)
+                    - 'button "BIRKENSTOCK Boston Braided Suede Leather Taupe Clogs. 360. Current Price: $164.95. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 453 reviews." [ref=e561] [cursor=pointer]'
+            - listitem [ref=e562]:
+              - generic "Go to product viewer for this item." [ref=e563]:
+                - 'button "Birkenstock Boston Soft Footbed Clogs. Nearby, 16 mi Birkenstock Boston Soft Footbed Clogs Current Price: $169.95. American Eagle Outfitters Free delivery Rated 4.4 out of 5. 54 reviews. Birkenstock Boston Soft Footbed Clogs. Nearby, 16 mi. Current Price: $169.95. American Eagle Outfitters. Free delivery. 30-day returns. Rated 4.4 out of 5. 54 reviews. Three and more color options available." [ref=e565]':
+                  - generic [ref=e566]:
+                    - generic [ref=e572]:
+                      - generic [ref=e573]:
+                        - img "Birkenstock Boston Soft Footbed Clogs." [ref=e577]
+                        - generic [ref=e581]:
+                          - img [ref=e583]
+                          - text: Nearby, 16 mi
+                      - generic [ref=e587]: Birkenstock Boston Soft Footbed Clogs
+                      - 'group "Current Price: $169.95." [ref=e589]':
+                        - generic [ref=e592]: $169.95
+                      - generic [ref=e598]: American Eagle Outfitters
+                      - generic [ref=e601]: Free delivery
+                      - img "Rated 4.4 out of 5. 54 reviews." [ref=e603]:
+                        - img "Rated 4.4 out of 5, 54 user reviews" [ref=e604]:
+                          - text: "4.4"
+                          - img [ref=e605]
+                          - text: (54)
+                    - 'button "Birkenstock Boston Soft Footbed Clogs. Nearby, 16 mi. Current Price: $169.95. American Eagle Outfitters. Free delivery. 30-day returns. Rated 4.4 out of 5. 54 reviews. Three and more color options available." [ref=e608] [cursor=pointer]'
+            - listitem [ref=e609]:
+              - generic "Go to product viewer for this item." [ref=e610]:
+                - 'button "Birkenstock Boston Soft Footbed Taupe Clogs. Nearby, 2 mi Birkenstock Boston Soft Footbed Taupe Clogs Current Price: $169.95. Zumiez Free delivery Birkenstock Boston Soft Footbed Taupe Clogs. Nearby, 2 mi. Current Price: $169.95. Zumiez. Free delivery. 30-day returns." [ref=e612]':
+                  - generic [ref=e613]:
+                    - generic [ref=e619]:
+                      - generic [ref=e620]:
+                        - img "Birkenstock Boston Soft Footbed Taupe Clogs." [ref=e624]
+                        - generic [ref=e628]:
+                          - img [ref=e630]
+                          - text: Nearby, 2 mi
+                      - generic [ref=e634]: Birkenstock Boston Soft Footbed Taupe Clogs
+                      - 'group "Current Price: $169.95." [ref=e636]':
+                        - generic [ref=e639]: $169.95
+                      - generic [ref=e645]: Zumiez
+                      - generic [ref=e648]: Free delivery
+                    - 'button "Birkenstock Boston Soft Footbed Taupe Clogs. Nearby, 2 mi. Current Price: $169.95. Zumiez. Free delivery. 30-day returns." [ref=e649] [cursor=pointer]'
+            - listitem [ref=e650]:
+              - generic "360. Go to product viewer for this item." [ref=e651]:
+                - 'button "360. An interactive autorotating 360 image showing the item from different angles. Birkenstock Wide Width Boston Clog Men''s | Men | Women''s | Taupe | Size EU 45 / US Mens 12-12.5 / Womens 14-14.5 | Clogs showing in all directions. Use Alt or Option + right or left arrow key to rotate Nearby, 15 mi Birkenstock Wide Width Boston Clog Men''s | Men | Women''s | Taupe | Size EU 45 / US Mens 12-12.5 / Womens 14-14.5 | Clogs Current Price: $169.96. DSW Rated 4.5 out of 5. 5.7K reviews. Birkenstock Wide Width Boston Clog Men''s | Men | Women''s | Taupe | Size EU 45 / US Mens 12-12.5 / Womens 14-14.5 | Clogs. 360. Nearby, 15 mi. Current Price: $169.96. DSW. 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e653]':
+                  - generic [ref=e654]:
+                    - generic [ref=e660]:
+                      - generic [ref=e661]:
+                        - generic [ref=e662]:
+                          - img "360." [ref=e664]:
+                            - generic [ref=e665]:
+                              - img [ref=e667]
+                              - generic [ref=e669]: "360"
+                          - button "An interactive autorotating 360 image showing the item from different angles. Birkenstock Wide Width Boston Clog Men's | Men | Women's | Taupe | Size EU 45 / US Mens 12-12.5 / Womens 14-14.5 | Clogs showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e670]:
+                            - img
+                        - generic [ref=e674]:
+                          - img [ref=e676]
+                          - text: Nearby, 15 mi
+                      - generic [ref=e680]: Birkenstock Wide Width Boston Clog Men's | Men | Women's | Taupe | Size EU 45 / US Mens 12-12.5 / Womens 14-14.5 | Clogs
+                      - 'group "Current Price: $169.96." [ref=e682]':
+                        - generic [ref=e685]: $169.96
+                      - generic [ref=e691]: DSW
+                      - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e693]:
+                        - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e694]:
+                          - text: "4.5"
+                          - img [ref=e695]
+                          - text: (5.7K)
+                    - 'button "Birkenstock Wide Width Boston Clog Men''s | Men | Women''s | Taupe | Size EU 45 / US Mens 12-12.5 / Womens 14-14.5 | Clogs. 360. Nearby, 15 mi. Current Price: $169.96. DSW. 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e698] [cursor=pointer]'
+            - listitem [ref=e699]:
+              - generic "Go to product viewer for this item." [ref=e700]:
+                - 'button "BIRKENSTOCK Boston Soft Footbed Womens Sandals (Taupe). BIRKENSTOCK Boston Soft Footbed Womens Sandals (Taupe) Current Price: $170.00. Shoe Palace Rated 4.5 out of 5. 7.4K reviews. BIRKENSTOCK Boston Soft Footbed Womens Sandals (Taupe). Current Price: $170.00. Shoe Palace. 30-day returns. Rated 4.5 out of 5. 7.4K reviews." [ref=e702]':
+                  - generic [ref=e703]:
+                    - generic [ref=e709]:
+                      - img "BIRKENSTOCK Boston Soft Footbed Womens Sandals (Taupe)." [ref=e714]
+                      - generic [ref=e716]: BIRKENSTOCK Boston Soft Footbed Womens Sandals (Taupe)
+                      - 'group "Current Price: $170.00." [ref=e718]':
+                        - generic [ref=e721]: $170.00
+                      - generic [ref=e727]: Shoe Palace
+                      - img "Rated 4.5 out of 5. 7.4K reviews." [ref=e729]:
+                        - img "Rated 4.5 out of 5, 7.4K user reviews" [ref=e730]:
+                          - text: "4.5"
+                          - img [ref=e731]
+                          - text: (7.4K)
+                    - 'button "BIRKENSTOCK Boston Soft Footbed Womens Sandals (Taupe). Current Price: $170.00. Shoe Palace. 30-day returns. Rated 4.5 out of 5. 7.4K reviews." [ref=e734] [cursor=pointer]'
+        - list "Shopping Unit Products Navigation. Navigate through the view to get individual prices and links to merchant websites." [ref=e748]:
+          - listitem [ref=e749]:
+            - generic "Go to product viewer for this item." [ref=e750]:
+              - 'button "Women''s Birkenstock Boston Soft Footbed Suede Leather - Taupe, Size: 9.5, Medium | Footwear - Road Runner Sports. Nearby, 29 mi Women''s Birkenstock Boston Soft Footbed Suede Leather - Taupe, Size: 9.5, Medium | Footwear - Road Runner Sports Current Price: $169.95. Road Runner Sports Rated 4.5 out of 5. 5.7K reviews. Women''s Birkenstock Boston Soft Footbed Suede Leather - Taupe, Size: 9.5, Medium | Footwear - Road Runner Sports. Nearby, 29 mi. Current Price: $169.95. Road Runner Sports. 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e752]':
+                - generic [ref=e753]:
+                  - generic [ref=e759]:
+                    - generic [ref=e760]:
+                      - 'img "Women''s Birkenstock Boston Soft Footbed Suede Leather - Taupe, Size: 9.5, Medium | Footwear - Road Runner Sports." [ref=e764]'
+                      - generic [ref=e768]:
+                        - img [ref=e770]
+                        - text: Nearby, 29 mi
+                    - generic [ref=e774]: "Women's Birkenstock Boston Soft Footbed Suede Leather - Taupe, Size: 9.5, Medium | Footwear - Road Runner Sports"
+                    - 'group "Current Price: $169.95." [ref=e776]':
+                      - generic [ref=e779]: $169.95
+                    - generic [ref=e785]: Road Runner Sports
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e787]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e788]:
+                        - text: "4.5"
+                        - img [ref=e789]
+                        - text: (5.7K)
+                  - 'button "Women''s Birkenstock Boston Soft Footbed Suede Leather - Taupe, Size: 9.5, Medium | Footwear - Road Runner Sports. Nearby, 29 mi. Current Price: $169.95. Road Runner Sports. 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e792] [cursor=pointer]'
+          - listitem [ref=e793]:
+            - generic "Go to product viewer for this item." [ref=e794]:
+              - 'button "BIRKENSTOCK Boston Rivets Suede Leather Taupe Clogs. BIRKENSTOCK Boston Rivets Suede Leather Taupe Clogs Current Price: $174.95. BIRKENSTOCK Rated 4.7 out of 5. 212 reviews. BIRKENSTOCK Boston Rivets Suede Leather Taupe Clogs. Current Price: $174.95. BIRKENSTOCK. 30-day returns. Rated 4.7 out of 5. 212 reviews." [ref=e796]':
+                - generic [ref=e797]:
+                  - generic [ref=e803]:
+                    - img "BIRKENSTOCK Boston Rivets Suede Leather Taupe Clogs." [ref=e808]
+                    - generic [ref=e810]: BIRKENSTOCK Boston Rivets Suede Leather Taupe Clogs
+                    - 'group "Current Price: $174.95." [ref=e812]':
+                      - generic [ref=e815]: $174.95
+                    - generic [ref=e821]: BIRKENSTOCK
+                    - img "Rated 4.7 out of 5. 212 reviews." [ref=e823]:
+                      - img "Rated 4.7 out of 5, 212 user reviews" [ref=e824]:
+                        - text: "4.7"
+                        - img [ref=e825]
+                        - text: (212)
+                  - 'button "BIRKENSTOCK Boston Rivets Suede Leather Taupe Clogs. Current Price: $174.95. BIRKENSTOCK. 30-day returns. Rated 4.7 out of 5. 212 reviews." [ref=e828] [cursor=pointer]'
+          - listitem [ref=e829]:
+            - generic "360. Go to product viewer for this item." [ref=e830]:
+              - 'button "360. An interactive autorotating 360 image showing the item from different angles. Birkenstock Boston Soft Footbed - Suede (Unisex) Clog Shoes Taupe Suede : EU 39 (US Men''s 6-6.5 - Women''s 8-8.5) Narrow, Leather/Suede showing in all directions. Use Alt or Option + right or left arrow key to rotate Birkenstock Boston Soft Footbed - Suede (Unisex) Clog Shoes Taupe Suede : EU 39 (US Men''s 6-6.5 - Women''s 8-8.5) Narrow, Leather/Suede Current Price: $169.95. Zappos.com Free delivery by Tue Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Soft Footbed - Suede (Unisex) Clog Shoes Taupe Suede : EU 39 (US Men''s 6-6.5 - Women''s 8-8.5) Narrow, Leather/Suede. 360. Current Price: $169.95. Zappos.com. Free delivery by Tue. Free 365-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e832]':
+                - generic [ref=e833]:
+                  - generic [ref=e839]:
+                    - generic [ref=e841]:
+                      - img "360." [ref=e843]:
+                        - generic [ref=e844]:
+                          - img [ref=e846]
+                          - generic [ref=e848]: "360"
+                      - 'button "An interactive autorotating 360 image showing the item from different angles. Birkenstock Boston Soft Footbed - Suede (Unisex) Clog Shoes Taupe Suede : EU 39 (US Men''s 6-6.5 - Women''s 8-8.5) Narrow, Leather/Suede showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e849]':
+                        - img
+                    - generic [ref=e851]: "Birkenstock Boston Soft Footbed - Suede (Unisex) Clog Shoes Taupe Suede : EU 39 (US Men's 6-6.5 - Women's 8-8.5) Narrow, Leather/Suede"
+                    - 'group "Current Price: $169.95." [ref=e853]':
+                      - generic [ref=e856]: $169.95
+                    - generic [ref=e862]: Zappos.com
+                    - generic [ref=e865]: Free delivery by Tue
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e867]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e868]:
+                        - text: "4.5"
+                        - img [ref=e869]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Soft Footbed - Suede (Unisex) Clog Shoes Taupe Suede : EU 39 (US Men''s 6-6.5 - Women''s 8-8.5) Narrow, Leather/Suede. 360. Current Price: $169.95. Zappos.com. Free delivery by Tue. Free 365-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e872] [cursor=pointer]'
+          - listitem [ref=e873]:
+            - generic "35% OFF. Go to product viewer for this item." [ref=e874]:
+              - 'button "35% OFF. Birkenstock Boston Rivets Suede Clogs. 35% OFF. Birkenstock Boston Rivets Suede Clogs Current Price: $156.00. Was $240. BIRKENSTOCK Rated 4.7 out of 5. 99 reviews. Birkenstock Boston Rivets Suede Clogs. 35% OFF. Current Price: $156.00. Was $240. BIRKENSTOCK. 30-day returns. Rated 4.7 out of 5. 99 reviews. Three and more color options available." [ref=e876]':
+                - generic [ref=e877]:
+                  - generic [ref=e883]:
+                    - generic [ref=e885]:
+                      - img "35% OFF." [ref=e887]:
+                        - generic [ref=e889]: 35% OFF
+                      - img "Birkenstock Boston Rivets Suede Clogs. 35% OFF." [ref=e892]
+                    - generic [ref=e894]: Birkenstock Boston Rivets Suede Clogs
+                    - 'group "Current Price: $156.00. Was $240." [ref=e896]':
+                      - generic [ref=e898]:
+                        - generic [ref=e899]: $156.00
+                        - generic [ref=e900]: $240
+                    - generic [ref=e906]: BIRKENSTOCK
+                    - img "Rated 4.7 out of 5. 99 reviews." [ref=e908]:
+                      - img "Rated 4.7 out of 5, 99 user reviews" [ref=e909]:
+                        - text: "4.7"
+                        - img [ref=e910]
+                        - text: (99)
+                  - 'button "Birkenstock Boston Rivets Suede Clogs. 35% OFF. Current Price: $156.00. Was $240. BIRKENSTOCK. 30-day returns. Rated 4.7 out of 5. 99 reviews. Three and more color options available." [ref=e913] [cursor=pointer]'
+          - listitem [ref=e914]:
+            - generic "40% OFF. Go to product viewer for this item." [ref=e915]:
+              - 'button "40% OFF. Birkenstock Boston Taupe Suede Leather Soft Footbed Unisex Clog Casual. 40% OFF. Birkenstock Boston Taupe Suede Leather Soft Footbed Unisex Clog Casual Current Price: $73.80. Was $125. eBay Rated 4.5 out of 5. 5.4K reviews. Birkenstock Boston Taupe Suede Leather Soft Footbed Unisex Clog Casual. 40% OFF. Current Price: $73.80. Was $125. eBay. Rated 4.5 out of 5. 5.4K reviews." [ref=e917]':
+                - generic [ref=e918]:
+                  - generic [ref=e924]:
+                    - generic [ref=e926]:
+                      - img "40% OFF." [ref=e928]:
+                        - generic [ref=e930]: 40% OFF
+                      - img "Birkenstock Boston Taupe Suede Leather Soft Footbed Unisex Clog Casual. 40% OFF." [ref=e933]
+                    - generic [ref=e935]: Birkenstock Boston Taupe Suede Leather Soft Footbed Unisex Clog Casual
+                    - 'group "Current Price: $73.80. Was $125." [ref=e937]':
+                      - generic [ref=e939]:
+                        - generic [ref=e940]: $73.80
+                        - generic [ref=e941]: $125
+                    - generic [ref=e947]: eBay
+                    - img "Rated 4.5 out of 5. 5.4K reviews." [ref=e949]:
+                      - img "Rated 4.5 out of 5, 5.4K user reviews" [ref=e950]:
+                        - text: "4.5"
+                        - img [ref=e951]
+                        - text: (5.4K)
+                  - 'button "Birkenstock Boston Taupe Suede Leather Soft Footbed Unisex Clog Casual. 40% OFF. Current Price: $73.80. Was $125. eBay. Rated 4.5 out of 5. 5.4K reviews." [ref=e954] [cursor=pointer]'
+          - listitem [ref=e955]:
+            - generic "360. Go to product viewer for this item." [ref=e956]:
+              - 'button "360. An interactive autorotating 360 image showing the item from different angles. Birkenstock Women''s Boston Braided Suede showing in all directions. Use Alt or Option + right or left arrow key to rotate Birkenstock Women''s Boston Braided Suede Current Price: $164.95. Birkenstock Midtown & more Rated 4.5 out of 5. 453 reviews. Birkenstock Women''s Boston Braided Suede. 360. Current Price: $164.95. Birkenstock Midtown & more. Free 30-day returns. Rated 4.5 out of 5. 453 reviews. Three and more color options available." [ref=e958]':
+                - generic [ref=e959]:
+                  - generic [ref=e965]:
+                    - generic [ref=e967]:
+                      - img "360." [ref=e969]:
+                        - generic [ref=e970]:
+                          - img [ref=e972]
+                          - generic [ref=e974]: "360"
+                      - button "An interactive autorotating 360 image showing the item from different angles. Birkenstock Women's Boston Braided Suede showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e975]:
+                        - img
+                    - generic [ref=e977]: Birkenstock Women's Boston Braided Suede
+                    - 'group "Current Price: $164.95." [ref=e979]':
+                      - generic [ref=e982]: $164.95
+                    - generic [ref=e984]:
+                      - generic [ref=e988]: Birkenstock Midtown
+                      - generic [ref=e989]: "& more"
+                    - img "Rated 4.5 out of 5. 453 reviews." [ref=e991]:
+                      - img "Rated 4.5 out of 5, 453 user reviews" [ref=e992]:
+                        - text: "4.5"
+                        - img [ref=e993]
+                        - text: (453)
+                  - 'button "Birkenstock Women''s Boston Braided Suede. 360. Current Price: $164.95. Birkenstock Midtown & more. Free 30-day returns. Rated 4.5 out of 5. 453 reviews. Three and more color options available." [ref=e996] [cursor=pointer]'
+          - listitem [ref=e997]:
+            - generic "360. Go to product viewer for this item." [ref=e998]:
+              - 'button "360. An interactive autorotating 360 image showing the item from different angles. Birkenstock Boston Soft Footbed Suede showing in all directions. Use Alt or Option + right or left arrow key to rotate Birkenstock Boston Soft Footbed Suede Current Price: $169.95. Vermont Gear Farm-Way Free delivery Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Soft Footbed Suede. 360. Current Price: $169.95. Vermont Gear Farm-Way. Free delivery. 30-day returns. Rated 4.5 out of 5. 5.7K reviews. Three and more color options available." [ref=e1000]':
+                - generic [ref=e1001]:
+                  - generic [ref=e1007]:
+                    - generic [ref=e1009]:
+                      - img "360." [ref=e1011]:
+                        - generic [ref=e1012]:
+                          - img [ref=e1014]
+                          - generic [ref=e1016]: "360"
+                      - button "An interactive autorotating 360 image showing the item from different angles. Birkenstock Boston Soft Footbed Suede showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e1017]:
+                        - img
+                    - generic [ref=e1019]: Birkenstock Boston Soft Footbed Suede
+                    - 'group "Current Price: $169.95." [ref=e1021]':
+                      - generic [ref=e1024]: $169.95
+                    - generic [ref=e1030]: Vermont Gear Farm-Way
+                    - generic [ref=e1033]: Free delivery
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1035]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1036]:
+                        - text: "4.5"
+                        - img [ref=e1037]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Soft Footbed Suede. 360. Current Price: $169.95. Vermont Gear Farm-Way. Free delivery. 30-day returns. Rated 4.5 out of 5. 5.7K reviews. Three and more color options available." [ref=e1040] [cursor=pointer]'
+          - listitem [ref=e1041]:
+            - generic "Go to product viewer for this item." [ref=e1042]:
+              - 'button "Birkenstock Boston Soft Footbed Suede Taupe 0560771 Mens. Birkenstock Boston Soft Footbed Suede Taupe 0560771 Mens Current Price: $134.99. eBay - evans.sneakers Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Soft Footbed Suede Taupe 0560771 Mens. Current Price: $134.99. eBay - evans.sneakers. Rated 4.5 out of 5. 5.7K reviews." [ref=e1044]':
+                - generic [ref=e1045]:
+                  - generic [ref=e1051]:
+                    - img "Birkenstock Boston Soft Footbed Suede Taupe 0560771 Mens." [ref=e1056]
+                    - generic [ref=e1058]: Birkenstock Boston Soft Footbed Suede Taupe 0560771 Mens
+                    - 'group "Current Price: $134.99." [ref=e1060]':
+                      - generic [ref=e1063]: $134.99
+                    - generic [ref=e1069]: eBay - evans.sneakers
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1071]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1072]:
+                        - text: "4.5"
+                        - img [ref=e1073]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Soft Footbed Suede Taupe 0560771 Mens. Current Price: $134.99. eBay - evans.sneakers. Rated 4.5 out of 5. 5.7K reviews." [ref=e1076] [cursor=pointer]'
+          - listitem [ref=e1077]:
+            - generic "Go to product viewer for this item." [ref=e1078]:
+              - 'button "BIRKENSTOCK Boston Suede Leather Oyster Clogs. BIRKENSTOCK Boston Suede Leather Oyster Clogs Current Price: $154.95. BIRKENSTOCK Rated 4.6 out of 5. 1.9K reviews. BIRKENSTOCK Boston Suede Leather Oyster Clogs. Current Price: $154.95. BIRKENSTOCK. 30-day returns. Rated 4.6 out of 5. 1.9K reviews." [ref=e1080]':
+                - generic [ref=e1081]:
+                  - generic [ref=e1087]:
+                    - img "BIRKENSTOCK Boston Suede Leather Oyster Clogs." [ref=e1092]
+                    - generic [ref=e1094]: BIRKENSTOCK Boston Suede Leather Oyster Clogs
+                    - 'group "Current Price: $154.95." [ref=e1096]':
+                      - generic [ref=e1099]: $154.95
+                    - generic [ref=e1105]: BIRKENSTOCK
+                    - img "Rated 4.6 out of 5. 1.9K reviews." [ref=e1107]:
+                      - img "Rated 4.6 out of 5, 1.9K user reviews" [ref=e1108]:
+                        - text: "4.6"
+                        - img [ref=e1109]
+                        - text: (1.9K)
+                  - 'button "BIRKENSTOCK Boston Suede Leather Oyster Clogs. Current Price: $154.95. BIRKENSTOCK. 30-day returns. Rated 4.6 out of 5. 1.9K reviews." [ref=e1112] [cursor=pointer]'
+          - listitem [ref=e1113]:
+            - generic "Go to product viewer for this item." [ref=e1114]:
+              - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Mink Clogs. BIRKENSTOCK Boston Soft Footbed Suede Leather Mink Clogs Current Price: $169.95. BIRKENSTOCK Rated 4.3 out of 5. 1.8K reviews. BIRKENSTOCK Boston Soft Footbed Suede Leather Mink Clogs. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.3 out of 5. 1.8K reviews." [ref=e1116]':
+                - generic [ref=e1117]:
+                  - generic [ref=e1123]:
+                    - img "BIRKENSTOCK Boston Soft Footbed Suede Leather Mink Clogs." [ref=e1128]
+                    - generic [ref=e1130]: BIRKENSTOCK Boston Soft Footbed Suede Leather Mink Clogs
+                    - 'group "Current Price: $169.95." [ref=e1132]':
+                      - generic [ref=e1135]: $169.95
+                    - generic [ref=e1141]: BIRKENSTOCK
+                    - img "Rated 4.3 out of 5. 1.8K reviews." [ref=e1143]:
+                      - img "Rated 4.3 out of 5, 1.8K user reviews" [ref=e1144]:
+                        - text: "4.3"
+                        - img [ref=e1145]
+                        - text: (1.8K)
+                  - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Mink Clogs. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.3 out of 5. 1.8K reviews." [ref=e1148] [cursor=pointer]'
+        - list "Shopping Unit Products Navigation. Navigate through the view to get individual prices and links to merchant websites." [ref=e1163]:
+          - listitem [ref=e1164]:
+            - generic "50% OFF. Go to product viewer for this item." [ref=e1165]:
+              - 'button "50% OFF. Birkenstock Boston Taupe Suede Leather Soft Footbed Clogs Unisex''s. 50% OFF. Birkenstock Boston Taupe Suede Leather Soft Footbed Clogs Unisex''s Current Price: $79.50. Was $159. eBay Free delivery Rated 4.4 out of 5. 171 reviews. Birkenstock Boston Taupe Suede Leather Soft Footbed Clogs Unisex''s. 50% OFF. Current Price: $79.50. Was $159. eBay. Free delivery. 30-day returns. Rated 4.4 out of 5. 171 reviews." [ref=e1167]':
+                - generic [ref=e1168]:
+                  - generic [ref=e1174]:
+                    - generic [ref=e1176]:
+                      - img "50% OFF." [ref=e1178]:
+                        - generic [ref=e1180]: 50% OFF
+                      - img "Birkenstock Boston Taupe Suede Leather Soft Footbed Clogs Unisex's. 50% OFF." [ref=e1183]
+                    - generic [ref=e1185]: Birkenstock Boston Taupe Suede Leather Soft Footbed Clogs Unisex's
+                    - 'group "Current Price: $79.50. Was $159." [ref=e1187]':
+                      - generic [ref=e1189]:
+                        - generic [ref=e1190]: $79.50
+                        - generic [ref=e1191]: $159
+                    - generic [ref=e1197]: eBay
+                    - generic [ref=e1200]: Free delivery
+                    - img "Rated 4.4 out of 5. 171 reviews." [ref=e1202]:
+                      - img "Rated 4.4 out of 5, 171 user reviews" [ref=e1203]:
+                        - text: "4.4"
+                        - img [ref=e1204]
+                        - text: (171)
+                  - 'button "Birkenstock Boston Taupe Suede Leather Soft Footbed Clogs Unisex''s. 50% OFF. Current Price: $79.50. Was $159. eBay. Free delivery. 30-day returns. Rated 4.4 out of 5. 171 reviews." [ref=e1207] [cursor=pointer]'
+          - listitem [ref=e1208]:
+            - generic "360. Go to product viewer for this item." [ref=e1209]:
+              - 'button "360. An interactive autorotating 360 image showing the item from different angles. Birkenstock Women''s Boston Chunky showing in all directions. Use Alt or Option + right or left arrow key to rotate Nearby, 21 mi Birkenstock Women''s Boston Chunky Current Price: $155.00. Tip Top Shoes & more Free delivery by Wed Rated 4.5 out of 5. 136 reviews. Birkenstock Women''s Boston Chunky. 360. Nearby, 21 mi. Current Price: $155.00. Tip Top Shoes & more. Free delivery by Wed. 15-day returns. Rated 4.5 out of 5. 136 reviews." [ref=e1211]':
+                - generic [ref=e1212]:
+                  - generic [ref=e1218]:
+                    - generic [ref=e1219]:
+                      - generic [ref=e1220]:
+                        - img "360." [ref=e1222]:
+                          - generic [ref=e1223]:
+                            - img [ref=e1225]
+                            - generic [ref=e1227]: "360"
+                        - button "An interactive autorotating 360 image showing the item from different angles. Birkenstock Women's Boston Chunky showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e1228]:
+                          - img
+                      - generic [ref=e1232]:
+                        - img [ref=e1234]
+                        - text: Nearby, 21 mi
+                    - generic [ref=e1238]: Birkenstock Women's Boston Chunky
+                    - 'group "Current Price: $155.00." [ref=e1240]':
+                      - generic [ref=e1243]: $155.00
+                    - generic [ref=e1245]:
+                      - generic [ref=e1249]: Tip Top Shoes
+                      - generic [ref=e1250]: "& more"
+                    - generic [ref=e1253]: Free delivery by Wed
+                    - img "Rated 4.5 out of 5. 136 reviews." [ref=e1255]:
+                      - img "Rated 4.5 out of 5, 136 user reviews" [ref=e1256]:
+                        - text: "4.5"
+                        - img [ref=e1257]
+                        - text: (136)
+                  - 'button "Birkenstock Women''s Boston Chunky. 360. Nearby, 21 mi. Current Price: $155.00. Tip Top Shoes & more. Free delivery by Wed. 15-day returns. Rated 4.5 out of 5. 136 reviews." [ref=e1260] [cursor=pointer]'
+          - listitem [ref=e1261]:
+            - generic "45% OFF. Go to product viewer for this item." [ref=e1262]:
+              - 'button "45% OFF. Birkenstock Boston Suede Taupe Soft Footbed Clogs Men''s Shoes. 45% OFF. Birkenstock Boston Suede Taupe Soft Footbed Clogs Men''s Shoes Current Price: $85.25. Was $155. eBay Free delivery Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Suede Taupe Soft Footbed Clogs Men''s Shoes. 45% OFF. Current Price: $85.25. Was $155. eBay. Free delivery. Free 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1264]':
+                - generic [ref=e1265]:
+                  - generic [ref=e1271]:
+                    - generic [ref=e1273]:
+                      - img "45% OFF." [ref=e1275]:
+                        - generic [ref=e1277]: 45% OFF
+                      - img "Birkenstock Boston Suede Taupe Soft Footbed Clogs Men's Shoes. 45% OFF." [ref=e1280]
+                    - generic [ref=e1282]: Birkenstock Boston Suede Taupe Soft Footbed Clogs Men's Shoes
+                    - 'group "Current Price: $85.25. Was $155." [ref=e1284]':
+                      - generic [ref=e1286]:
+                        - generic [ref=e1287]: $85.25
+                        - generic [ref=e1288]: $155
+                    - generic [ref=e1294]: eBay
+                    - generic [ref=e1297]: Free delivery
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1299]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1300]:
+                        - text: "4.5"
+                        - img [ref=e1301]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Suede Taupe Soft Footbed Clogs Men''s Shoes. 45% OFF. Current Price: $85.25. Was $155. eBay. Free delivery. Free 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1304] [cursor=pointer]'
+          - listitem [ref=e1305]:
+            - generic "360. Go to product viewer for this item." [ref=e1306]:
+              - 'button "360. An interactive autorotating 360 image showing the item from different angles. Birkenstock Womens Boston Clog Women''s Taupe Sneaker Size 11M 102910 | Rack Room Shoes showing in all directions. Use Alt or Option + right or left arrow key to rotate Birkenstock Womens Boston Clog Women''s Taupe Sneaker Size 11M 102910 | Rack Room Shoes Current Price: $169.99. Rack Room Shoes Free delivery Rated 4.5 out of 5. 5.7K reviews. Birkenstock Womens Boston Clog Women''s Taupe Sneaker Size 11M 102910 | Rack Room Shoes. 360. Current Price: $169.99. Rack Room Shoes. Free delivery. Free 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1308]':
+                - generic [ref=e1309]:
+                  - generic [ref=e1315]:
+                    - generic [ref=e1317]:
+                      - img "360." [ref=e1319]:
+                        - generic [ref=e1320]:
+                          - img [ref=e1322]
+                          - generic [ref=e1324]: "360"
+                      - button "An interactive autorotating 360 image showing the item from different angles. Birkenstock Womens Boston Clog Women's Taupe Sneaker Size 11M 102910 | Rack Room Shoes showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e1325]:
+                        - img
+                    - generic [ref=e1327]: Birkenstock Womens Boston Clog Women's Taupe Sneaker Size 11M 102910 | Rack Room Shoes
+                    - 'group "Current Price: $169.99." [ref=e1329]':
+                      - generic [ref=e1332]: $169.99
+                    - generic [ref=e1338]: Rack Room Shoes
+                    - generic [ref=e1341]: Free delivery
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1343]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1344]:
+                        - text: "4.5"
+                        - img [ref=e1345]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Womens Boston Clog Women''s Taupe Sneaker Size 11M 102910 | Rack Room Shoes. 360. Current Price: $169.99. Rack Room Shoes. Free delivery. Free 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1348] [cursor=pointer]'
+          - listitem [ref=e1349]:
+            - generic "Go to product viewer for this item." [ref=e1350]:
+              - 'button "Birkenstock Men''s Boston Soft Footbed Clogs. Birkenstock Men''s Boston Soft Footbed Clogs Current Price: $169.95. American Eagle Outfitters Free delivery Rated 4.6 out of 5. 46 reviews. Birkenstock Men''s Boston Soft Footbed Clogs. Current Price: $169.95. American Eagle Outfitters. Free delivery. 30-day returns. Rated 4.6 out of 5. 46 reviews. Three and more color options available." [ref=e1352]':
+                - generic [ref=e1353]:
+                  - generic [ref=e1359]:
+                    - img "Birkenstock Men's Boston Soft Footbed Clogs." [ref=e1364]
+                    - generic [ref=e1366]: Birkenstock Men's Boston Soft Footbed Clogs
+                    - 'group "Current Price: $169.95." [ref=e1368]':
+                      - generic [ref=e1371]: $169.95
+                    - generic [ref=e1377]: American Eagle Outfitters
+                    - generic [ref=e1380]: Free delivery
+                    - img "Rated 4.6 out of 5. 46 reviews." [ref=e1382]:
+                      - img "Rated 4.6 out of 5, 46 user reviews" [ref=e1383]:
+                        - text: "4.6"
+                        - img [ref=e1384]
+                        - text: (46)
+                  - 'button "Birkenstock Men''s Boston Soft Footbed Clogs. Current Price: $169.95. American Eagle Outfitters. Free delivery. 30-day returns. Rated 4.6 out of 5. 46 reviews. Three and more color options available." [ref=e1387] [cursor=pointer]'
+          - listitem [ref=e1388]:
+            - generic "45% OFF. Go to product viewer for this item." [ref=e1389]:
+              - 'button "45% OFF. Birkenstock Boston Suede Taupe Soft Footbed Clogs Women''s Shoes. 45% OFF. Birkenstock Boston Suede Taupe Soft Footbed Clogs Women''s Shoes Current Price: $85.25. Was $155. eBay Free delivery Rated 4.6 out of 5. 108 reviews. Birkenstock Boston Suede Taupe Soft Footbed Clogs Women''s Shoes. 45% OFF. Current Price: $85.25. Was $155. eBay. Free delivery. Free 30-day returns. Rated 4.6 out of 5. 108 reviews." [ref=e1391]':
+                - generic [ref=e1392]:
+                  - generic [ref=e1398]:
+                    - generic [ref=e1400]:
+                      - img "45% OFF." [ref=e1402]:
+                        - generic [ref=e1404]: 45% OFF
+                      - img "Birkenstock Boston Suede Taupe Soft Footbed Clogs Women's Shoes. 45% OFF." [ref=e1407]
+                    - generic [ref=e1409]: Birkenstock Boston Suede Taupe Soft Footbed Clogs Women's Shoes
+                    - 'group "Current Price: $85.25. Was $155." [ref=e1411]':
+                      - generic [ref=e1413]:
+                        - generic [ref=e1414]: $85.25
+                        - generic [ref=e1415]: $155
+                    - generic [ref=e1421]: eBay
+                    - generic [ref=e1424]: Free delivery
+                    - img "Rated 4.6 out of 5. 108 reviews." [ref=e1426]:
+                      - img "Rated 4.6 out of 5, 108 user reviews" [ref=e1427]:
+                        - text: "4.6"
+                        - img [ref=e1428]
+                        - text: (108)
+                  - 'button "Birkenstock Boston Suede Taupe Soft Footbed Clogs Women''s Shoes. 45% OFF. Current Price: $85.25. Was $155. eBay. Free delivery. Free 30-day returns. Rated 4.6 out of 5. 108 reviews." [ref=e1431] [cursor=pointer]'
+          - listitem [ref=e1432]:
+            - generic "Go to product viewer for this item." [ref=e1433]:
+              - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Carafe Clogs - Great for Mother''s Day Gifting. BIRKENSTOCK Boston Soft Footbed Suede Leather Carafe Clogs - Great for Mother''s Day Gifting Current Price: $169.95. BIRKENSTOCK Rated 4.5 out of 5. 6K reviews. BIRKENSTOCK Boston Soft Footbed Suede Leather Carafe Clogs - Great for Mother''s Day Gifting. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 6K reviews." [ref=e1435]':
+                - generic [ref=e1436]:
+                  - generic [ref=e1442]:
+                    - img "BIRKENSTOCK Boston Soft Footbed Suede Leather Carafe Clogs - Great for Mother's Day Gifting." [ref=e1447]
+                    - generic [ref=e1449]: BIRKENSTOCK Boston Soft Footbed Suede Leather Carafe Clogs - Great for Mother's Day Gifting
+                    - 'group "Current Price: $169.95." [ref=e1451]':
+                      - generic [ref=e1454]: $169.95
+                    - generic [ref=e1460]: BIRKENSTOCK
+                    - img "Rated 4.5 out of 5. 6K reviews." [ref=e1462]:
+                      - img "Rated 4.5 out of 5, 6K user reviews" [ref=e1463]:
+                        - text: "4.5"
+                        - img [ref=e1464]
+                        - text: (6K)
+                  - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Carafe Clogs - Great for Mother''s Day Gifting. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.5 out of 5. 6K reviews." [ref=e1467] [cursor=pointer]'
+          - listitem [ref=e1468]:
+            - generic "Go to product viewer for this item." [ref=e1469]:
+              - 'button "Birkenstock Men''s Boston Soft Footbed Clog, Taupe Suede | Size: 43 | St. Bernard. Birkenstock Men''s Boston Soft Footbed Clog, Taupe Suede | Size: 43 | St. Bernard Current Price: $169.95. Saint Bernard Free delivery on $199+ Rated 4.5 out of 5. 7.4K reviews. Birkenstock Men''s Boston Soft Footbed Clog, Taupe Suede | Size: 43 | St. Bernard. Current Price: $169.95. Saint Bernard. Free delivery on $199+. Free 30-day returns. Rated 4.5 out of 5. 7.4K reviews." [ref=e1471]':
+                - generic [ref=e1472]:
+                  - generic [ref=e1478]:
+                    - 'img "Birkenstock Men''s Boston Soft Footbed Clog, Taupe Suede | Size: 43 | St. Bernard." [ref=e1483]'
+                    - generic [ref=e1485]: "Birkenstock Men's Boston Soft Footbed Clog, Taupe Suede | Size: 43 | St. Bernard"
+                    - 'group "Current Price: $169.95." [ref=e1487]':
+                      - generic [ref=e1490]: $169.95
+                    - generic [ref=e1496]: Saint Bernard
+                    - generic [ref=e1499]: Free delivery on $199+
+                    - img "Rated 4.5 out of 5. 7.4K reviews." [ref=e1501]:
+                      - img "Rated 4.5 out of 5, 7.4K user reviews" [ref=e1502]:
+                        - text: "4.5"
+                        - img [ref=e1503]
+                        - text: (7.4K)
+                  - 'button "Birkenstock Men''s Boston Soft Footbed Clog, Taupe Suede | Size: 43 | St. Bernard. Current Price: $169.95. Saint Bernard. Free delivery on $199+. Free 30-day returns. Rated 4.5 out of 5. 7.4K reviews." [ref=e1506] [cursor=pointer]'
+          - listitem [ref=e1507]:
+            - generic "Go to product viewer for this item." [ref=e1508]:
+              - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Mocha Clogs. BIRKENSTOCK Boston Soft Footbed Suede Leather Mocha Clogs Current Price: $169.95. BIRKENSTOCK Rated 4.4 out of 5. 6.6K reviews. BIRKENSTOCK Boston Soft Footbed Suede Leather Mocha Clogs. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.4 out of 5. 6.6K reviews." [ref=e1510]':
+                - generic [ref=e1511]:
+                  - generic [ref=e1517]:
+                    - img "BIRKENSTOCK Boston Soft Footbed Suede Leather Mocha Clogs." [ref=e1522]
+                    - generic [ref=e1524]: BIRKENSTOCK Boston Soft Footbed Suede Leather Mocha Clogs
+                    - 'group "Current Price: $169.95." [ref=e1526]':
+                      - generic [ref=e1529]: $169.95
+                    - generic [ref=e1535]: BIRKENSTOCK
+                    - img "Rated 4.4 out of 5. 6.6K reviews." [ref=e1537]:
+                      - img "Rated 4.4 out of 5, 6.6K user reviews" [ref=e1538]:
+                        - text: "4.4"
+                        - img [ref=e1539]
+                        - text: (6.6K)
+                  - 'button "BIRKENSTOCK Boston Soft Footbed Suede Leather Mocha Clogs. Current Price: $169.95. BIRKENSTOCK. 30-day returns. Rated 4.4 out of 5. 6.6K reviews." [ref=e1542] [cursor=pointer]'
+          - listitem [ref=e1543]:
+            - generic "50% OFF. Go to product viewer for this item." [ref=e1544]:
+              - 'button "50% OFF. Birkenstock Boston Suede Leather Soft Footbed Clog Shoes Taupe. 50% OFF. Birkenstock Boston Suede Leather Soft Footbed Clog Shoes Taupe Current Price: $72.00. Was $144. eBay Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Suede Leather Soft Footbed Clog Shoes Taupe. 50% OFF. Current Price: $72.00. Was $144. eBay. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1546]':
+                - generic [ref=e1547]:
+                  - generic [ref=e1553]:
+                    - generic [ref=e1555]:
+                      - img "50% OFF." [ref=e1557]:
+                        - generic [ref=e1559]: 50% OFF
+                      - img "Birkenstock Boston Suede Leather Soft Footbed Clog Shoes Taupe. 50% OFF." [ref=e1562]
+                    - generic [ref=e1564]: Birkenstock Boston Suede Leather Soft Footbed Clog Shoes Taupe
+                    - 'group "Current Price: $72.00. Was $144." [ref=e1566]':
+                      - generic [ref=e1568]:
+                        - generic [ref=e1569]: $72.00
+                        - generic [ref=e1570]: $144
+                    - generic [ref=e1576]: eBay
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1578]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1579]:
+                        - text: "4.5"
+                        - img [ref=e1580]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Suede Leather Soft Footbed Clog Shoes Taupe. 50% OFF. Current Price: $72.00. Was $144. eBay. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1583] [cursor=pointer]'
+        - list "Shopping Unit Products Navigation. Navigate through the view to get individual prices and links to merchant websites." [ref=e1598]:
+          - listitem [ref=e1599]:
+            - generic "Go to product viewer for this item." [ref=e1600]:
+              - 'button "Birkenstock Boston Soft Footbed Suede Narrow Fit ''Taupe'' | Tan | Men''s Size 46. Birkenstock Boston Soft Footbed Suede Narrow Fit ''Taupe'' | Tan | Men''s Size 46 Current Price: $233.00. GOAT Birkenstock Boston Soft Footbed Suede Narrow Fit ''Taupe'' | Tan | Men''s Size 46. Current Price: $233.00. GOAT. 14-day returns." [ref=e1602]':
+                - generic [ref=e1603]:
+                  - generic [ref=e1609]:
+                    - img "Birkenstock Boston Soft Footbed Suede Narrow Fit 'Taupe' | Tan | Men's Size 46." [ref=e1614]
+                    - generic [ref=e1616]: Birkenstock Boston Soft Footbed Suede Narrow Fit 'Taupe' | Tan | Men's Size 46
+                    - 'group "Current Price: $233.00." [ref=e1618]':
+                      - generic [ref=e1621]: $233.00
+                    - generic [ref=e1627]: GOAT
+                  - 'button "Birkenstock Boston Soft Footbed Suede Narrow Fit ''Taupe'' | Tan | Men''s Size 46. Current Price: $233.00. GOAT. 14-day returns." [ref=e1628] [cursor=pointer]'
+          - listitem [ref=e1629]:
+            - generic "Go to product viewer for this item." [ref=e1630]:
+              - 'button "Birkenstock Boston Suede Soft Footbed Slip-Ons - Taupe. Birkenstock Boston Suede Soft Footbed Slip-Ons - Taupe Current Price: $160.00. Golf Direct Now Free delivery Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Suede Soft Footbed Slip-Ons - Taupe. Current Price: $160.00. Golf Direct Now. Free delivery. Rated 4.5 out of 5. 5.7K reviews." [ref=e1632]':
+                - generic [ref=e1633]:
+                  - generic [ref=e1639]:
+                    - img "Birkenstock Boston Suede Soft Footbed Slip-Ons - Taupe." [ref=e1644]
+                    - generic [ref=e1646]: Birkenstock Boston Suede Soft Footbed Slip-Ons - Taupe
+                    - 'group "Current Price: $160.00." [ref=e1648]':
+                      - generic [ref=e1651]: $160.00
+                    - generic [ref=e1657]: Golf Direct Now
+                    - generic [ref=e1660]: Free delivery
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1662]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1663]:
+                        - text: "4.5"
+                        - img [ref=e1664]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Suede Soft Footbed Slip-Ons - Taupe. Current Price: $160.00. Golf Direct Now. Free delivery. Rated 4.5 out of 5. 5.7K reviews." [ref=e1667] [cursor=pointer]'
+          - listitem [ref=e1668]:
+            - generic "49% OFF. Go to product viewer for this item." [ref=e1669]:
+              - 'button "49% OFF. Birkenstock Boston Taupe Classic Suede Soft Footbed Clogs Women’s. 49% OFF. Birkenstock Boston Taupe Classic Suede Soft Footbed Clogs Women’s Current Price: $75.60. Was $150. eBay Free delivery Rated 4.3 out of 5. 914 reviews. Birkenstock Boston Taupe Classic Suede Soft Footbed Clogs Women’s. 49% OFF. Current Price: $75.60. Was $150. eBay. Free delivery. 30-day returns. Rated 4.3 out of 5. 914 reviews." [ref=e1671]':
+                - generic [ref=e1672]:
+                  - generic [ref=e1678]:
+                    - generic [ref=e1680]:
+                      - img "49% OFF." [ref=e1682]:
+                        - generic [ref=e1684]: 49% OFF
+                      - img "Birkenstock Boston Taupe Classic Suede Soft Footbed Clogs Women’s. 49% OFF." [ref=e1687]
+                    - generic [ref=e1689]: Birkenstock Boston Taupe Classic Suede Soft Footbed Clogs Women’s
+                    - 'group "Current Price: $75.60. Was $150." [ref=e1691]':
+                      - generic [ref=e1693]:
+                        - generic [ref=e1694]: $75.60
+                        - generic [ref=e1695]: $150
+                    - generic [ref=e1701]: eBay
+                    - generic [ref=e1704]: Free delivery
+                    - img "Rated 4.3 out of 5. 914 reviews." [ref=e1706]:
+                      - img "Rated 4.3 out of 5, 914 user reviews" [ref=e1707]:
+                        - text: "4.3"
+                        - img [ref=e1708]
+                        - text: (914)
+                  - 'button "Birkenstock Boston Taupe Classic Suede Soft Footbed Clogs Women’s. 49% OFF. Current Price: $75.60. Was $150. eBay. Free delivery. 30-day returns. Rated 4.3 out of 5. 914 reviews." [ref=e1711] [cursor=pointer]'
+          - listitem [ref=e1712]:
+            - generic "Go to product viewer for this item." [ref=e1713]:
+              - 'button "Birkenstock Boston Soft Footbed Suede Leather in Taupe, Regular/Wide / 43. Birkenstock Boston Soft Footbed Suede Leather in Taupe, Regular/Wide / 43 Current Price: $169.95. Footprint USA Free delivery Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Soft Footbed Suede Leather in Taupe, Regular/Wide / 43. Current Price: $169.95. Footprint USA. Free delivery. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1715]':
+                - generic [ref=e1716]:
+                  - generic [ref=e1722]:
+                    - img "Birkenstock Boston Soft Footbed Suede Leather in Taupe, Regular/Wide / 43." [ref=e1727]
+                    - generic [ref=e1729]: Birkenstock Boston Soft Footbed Suede Leather in Taupe, Regular/Wide / 43
+                    - 'group "Current Price: $169.95." [ref=e1731]':
+                      - generic [ref=e1734]: $169.95
+                    - generic [ref=e1740]: Footprint USA
+                    - generic [ref=e1743]: Free delivery
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1745]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1746]:
+                        - text: "4.5"
+                        - img [ref=e1747]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Soft Footbed Suede Leather in Taupe, Regular/Wide / 43. Current Price: $169.95. Footprint USA. Free delivery. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1750] [cursor=pointer]'
+          - listitem [ref=e1751]:
+            - generic "Go to product viewer for this item." [ref=e1752]:
+              - 'button "Birkenstock Women''s Leather Boston Soft Suede Clog in Taupe/Grey | Size: US 11 | Buckle. Birkenstock Women''s Leather Boston Soft Suede Clog in Taupe/Grey | Size: US 11 | Buckle Current Price: $169.95. Buckle Rated 4.5 out of 5. 5.7K reviews. Birkenstock Women''s Leather Boston Soft Suede Clog in Taupe/Grey | Size: US 11 | Buckle. Current Price: $169.95. Buckle. 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1754]':
+                - generic [ref=e1755]:
+                  - generic [ref=e1761]:
+                    - 'img "Birkenstock Women''s Leather Boston Soft Suede Clog in Taupe/Grey | Size: US 11 | Buckle." [ref=e1766]'
+                    - generic [ref=e1768]: "Birkenstock Women's Leather Boston Soft Suede Clog in Taupe/Grey | Size: US 11 | Buckle"
+                    - 'group "Current Price: $169.95." [ref=e1770]':
+                      - generic [ref=e1773]: $169.95
+                    - generic [ref=e1779]: Buckle
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1781]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1782]:
+                        - text: "4.5"
+                        - img [ref=e1783]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Women''s Leather Boston Soft Suede Clog in Taupe/Grey | Size: US 11 | Buckle. Current Price: $169.95. Buckle. 60-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1786] [cursor=pointer]'
+          - listitem [ref=e1787]:
+            - generic "Go to product viewer for this item." [ref=e1788]:
+              - 'button "Birkenstock Men''s Boston Soft Footbed Clog in Taupe Suede, Size 44. Birkenstock Men''s Boston Soft Footbed Clog in Taupe Suede, Size 44 Current Price: $170.00. Huckberry Free delivery by Wed Rated 4.5 out of 5. 5.7K reviews. Birkenstock Men''s Boston Soft Footbed Clog in Taupe Suede, Size 44. Current Price: $170.00. Huckberry. Free delivery by Wed. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1790]':
+                - generic [ref=e1791]:
+                  - generic [ref=e1797]:
+                    - img "Birkenstock Men's Boston Soft Footbed Clog in Taupe Suede, Size 44." [ref=e1802]
+                    - generic [ref=e1804]: Birkenstock Men's Boston Soft Footbed Clog in Taupe Suede, Size 44
+                    - 'group "Current Price: $170.00." [ref=e1806]':
+                      - generic [ref=e1809]: $170.00
+                    - generic [ref=e1815]: Huckberry
+                    - generic [ref=e1818]: Free delivery by Wed
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1820]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1821]:
+                        - text: "4.5"
+                        - img [ref=e1822]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Men''s Boston Soft Footbed Clog in Taupe Suede, Size 44. Current Price: $170.00. Huckberry. Free delivery by Wed. 30-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1825] [cursor=pointer]'
+          - listitem [ref=e1826]:
+            - generic "Go to product viewer for this item." [ref=e1827]:
+              - 'button "Birkenstock Boston Taupe Suede Leather Soft Footbed Clog Women''s Shoes Size 8. Birkenstock Boston Taupe Suede Leather Soft Footbed Clog Women''s Shoes Size 8 Current Price: $76.99. eBay Free delivery Rated 4.5 out of 5. 7.4K reviews. Birkenstock Boston Taupe Suede Leather Soft Footbed Clog Women''s Shoes Size 8. Current Price: $76.99. eBay. Free delivery. Rated 4.5 out of 5. 7.4K reviews." [ref=e1829]':
+                - generic [ref=e1830]:
+                  - generic [ref=e1836]:
+                    - img "Birkenstock Boston Taupe Suede Leather Soft Footbed Clog Women's Shoes Size 8." [ref=e1841]
+                    - generic [ref=e1843]: Birkenstock Boston Taupe Suede Leather Soft Footbed Clog Women's Shoes Size 8
+                    - 'group "Current Price: $76.99." [ref=e1845]':
+                      - generic [ref=e1848]: $76.99
+                    - generic [ref=e1854]: eBay
+                    - generic [ref=e1857]: Free delivery
+                    - img "Rated 4.5 out of 5. 7.4K reviews." [ref=e1859]:
+                      - img "Rated 4.5 out of 5, 7.4K user reviews" [ref=e1860]:
+                        - text: "4.5"
+                        - img [ref=e1861]
+                        - text: (7.4K)
+                  - 'button "Birkenstock Boston Taupe Suede Leather Soft Footbed Clog Women''s Shoes Size 8. Current Price: $76.99. eBay. Free delivery. Rated 4.5 out of 5. 7.4K reviews." [ref=e1864] [cursor=pointer]'
+          - listitem [ref=e1865]:
+            - generic "360. Go to product viewer for this item." [ref=e1866]:
+              - 'button "360. An interactive autorotating 360 image showing the item from different angles. Birkenstock Boston Soft Footbed Suede Taupe (Narrow Fit) showing in all directions. Use Alt or Option + right or left arrow key to rotate Birkenstock Boston Soft Footbed Suede Taupe (Narrow Fit) Current Price: $138.00. StockX Rated 4.5 out of 5. 5.7K reviews. Birkenstock Boston Soft Footbed Suede Taupe (Narrow Fit). 360. Current Price: $138.00. StockX. 14-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1868]':
+                - generic [ref=e1869]:
+                  - generic [ref=e1875]:
+                    - generic [ref=e1877]:
+                      - img "360." [ref=e1879]:
+                        - generic [ref=e1880]:
+                          - img [ref=e1882]
+                          - generic [ref=e1884]: "360"
+                      - button "An interactive autorotating 360 image showing the item from different angles. Birkenstock Boston Soft Footbed Suede Taupe (Narrow Fit) showing in all directions. Use Alt or Option + right or left arrow key to rotate" [ref=e1885]:
+                        - img
+                    - generic [ref=e1887]: Birkenstock Boston Soft Footbed Suede Taupe (Narrow Fit)
+                    - 'group "Current Price: $138.00." [ref=e1889]':
+                      - generic [ref=e1892]: $138.00
+                    - generic [ref=e1898]: StockX
+                    - img "Rated 4.5 out of 5. 5.7K reviews." [ref=e1900]:
+                      - img "Rated 4.5 out of 5, 5.7K user reviews" [ref=e1901]:
+                        - text: "4.5"
+                        - img [ref=e1902]
+                        - text: (5.7K)
+                  - 'button "Birkenstock Boston Soft Footbed Suede Taupe (Narrow Fit). 360. Current Price: $138.00. StockX. 14-day returns. Rated 4.5 out of 5. 5.7K reviews." [ref=e1905] [cursor=pointer]'
+          - listitem [ref=e1906]:
+            - generic "Go to product viewer for this item." [ref=e1907]:
+              - 'button "Birkenstock Boston Taupe Suede Leather. Birkenstock Boston Taupe Suede Leather Current Price: $170.00. The Shoe Mill Rated 4.9 out of 5. 64 reviews. Birkenstock Boston Taupe Suede Leather. Current Price: $170.00. The Shoe Mill. 30-day returns. Rated 4.9 out of 5. 64 reviews." [ref=e1909]':
+                - generic [ref=e1910]:
+                  - generic [ref=e1916]:
+                    - img "Birkenstock Boston Taupe Suede Leather." [ref=e1921]
+                    - generic [ref=e1923]: Birkenstock Boston Taupe Suede Leather
+                    - 'group "Current Price: $170.00." [ref=e1925]':
+                      - generic [ref=e1928]: $170.00
+                    - generic [ref=e1934]: The Shoe Mill
+                    - img "Rated 4.9 out of 5. 64 reviews." [ref=e1936]:
+                      - img "Rated 4.9 out of 5, 64 user reviews" [ref=e1937]:
+                        - text: "4.9"
+                        - img [ref=e1938]
+                        - text: (64)
+                  - 'button "Birkenstock Boston Taupe Suede Leather. Current Price: $170.00. The Shoe Mill. 30-day returns. Rated 4.9 out of 5. 64 reviews." [ref=e1941] [cursor=pointer]'
+          - listitem [ref=e1942]:
+            - generic "Go to product viewer for this item." [ref=e1943]:
+              - 'button "Birkenstock Boston-Taupe Soft Footbed Suede Leather Unisex Clog Shoes 6.5 Uk. Birkenstock Boston-Taupe Soft Footbed Suede Leather Unisex Clog Shoes 6.5 Uk Current Price: $120.00. eBay Free delivery Rated 4.9 out of 5. 50 reviews. Birkenstock Boston-Taupe Soft Footbed Suede Leather Unisex Clog Shoes 6.5 Uk. Current Price: $120.00. eBay. Free delivery. 14-day returns. Rated 4.9 out of 5. 50 reviews." [ref=e1945]':
+                - generic [ref=e1946]:
+                  - generic [ref=e1952]:
+                    - img "Birkenstock Boston-Taupe Soft Footbed Suede Leather Unisex Clog Shoes 6.5 Uk." [ref=e1957]
+                    - generic [ref=e1959]: Birkenstock Boston-Taupe Soft Footbed Suede Leather Unisex Clog Shoes 6.5 Uk
+                    - 'group "Current Price: $120.00." [ref=e1961]':
+                      - generic [ref=e1964]: $120.00
+                    - generic [ref=e1970]: eBay
+                    - generic [ref=e1973]: Free delivery
+                    - img "Rated 4.9 out of 5. 50 reviews." [ref=e1975]:
+                      - img "Rated 4.9 out of 5, 50 user reviews" [ref=e1976]:
+                        - text: "4.9"
+                        - img [ref=e1977]
+                        - text: (50)
+                  - 'button "Birkenstock Boston-Taupe Soft Footbed Suede Leather Unisex Clog Shoes 6.5 Uk. Current Price: $120.00. eBay. Free delivery. 14-day returns. Rated 4.9 out of 5. 50 reviews." [ref=e1980] [cursor=pointer]'
+      - generic [ref=e1985]:
+        - heading "Page Navigation" [level=1] [ref=e1986]
+        - button "More results" [ref=e1987] [cursor=pointer]:
+          - generic [ref=e1988]:
+            - separator [ref=e1989]
+            - generic [ref=e1990]:
+              - generic [ref=e1991]: More results
+              - img [ref=e1993]
+      - navigation
