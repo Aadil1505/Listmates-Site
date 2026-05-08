@@ -1,59 +1,99 @@
-import * as React from "react";
 import Image from "next/image";
-import { AppStoreBadge } from "./AppStoreBadge";
-import { Reveal } from "./Reveal";
+import Link from "next/link";
+
+const links = [
+  { title: "Home", href: "/" },
+  { title: "How it works", href: "/#how" },
+  { title: "FAQ", href: "/#faq" },
+  { title: "Download", href: "/#download" },
+  { title: "Privacy", href: "/privacy" },
+  { title: "Terms", href: "/terms" },
+];
 
 export function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-border pt-32 pb-12 md:pt-44">
-      <div className="ambient-glow opacity-50" aria-hidden="true" />
+    <footer className="py-16 md:py-32">
+      <div className="mx-auto max-w-5xl px-6">
+        <Link
+          href="/"
+          aria-label="Listmates home"
+          className="mx-auto flex w-fit items-center gap-2 text-[16px] font-semibold leading-none tracking-tight text-foreground"
+        >
+          <Image
+            src="/web-app-manifest-192x192.png"
+            alt=""
+            aria-hidden="true"
+            width={192}
+            height={192}
+            className="size-6 shrink-0"
+          />
+          <span className="leading-none">Listmates</span>
+        </Link>
 
-      <div className="relative z-10 mx-auto max-w-[1180px] px-5 md:px-8">
-        <Reveal>
-          <p className="mx-auto max-w-[18ch] text-center font-serif text-[clamp(36px,6vw,68px)] leading-[1.05] tracking-[-0.015em] text-foreground">
-            Made with care, for the{" "}
-            <span className="italic text-primary">two of you.</span>
-          </p>
-        </Reveal>
-
-        <Reveal delay={0.15}>
-          <div className="mt-12 flex justify-center">
-            <AppStoreBadge size="lg" />
-          </div>
-        </Reveal>
-
-        <div className="mt-24 flex flex-col items-center justify-between gap-6 border-t border-border pt-8 text-[13px] text-muted-foreground/70 md:flex-row">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/web-app-manifest-192x192.png"
-              alt=""
-              aria-hidden="true"
-              width={192}
-              height={192}
-              className="size-6 shrink-0"
-            />
-            <span className="text-muted-foreground">Listmates</span>
-            <span aria-hidden="true">·</span>
-            <span>© {new Date().getFullYear()}</span>
-          </div>
-          <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-            <a href="/privacy" className="hover:text-foreground">
-              Privacy
-            </a>
-            <a href="/terms" className="hover:text-foreground">
-              Terms
-            </a>
-            <a href="/#faq" className="hover:text-foreground">
-              FAQ
-            </a>
-            <a
-              href="mailto:hello@listmates.app"
-              className="hover:text-foreground"
+        <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
+          {links.map((link) => (
+            <Link
+              key={link.title}
+              href={link.href}
+              className="block text-muted-foreground duration-150 hover:text-primary"
             >
-              hello@listmates.app
-            </a>
-          </nav>
+              <span>{link.title}</span>
+            </Link>
+          ))}
         </div>
+
+        {/* Social links — enable when accounts are live
+        <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
+          <Link
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X/Twitter"
+            className="block text-muted-foreground hover:text-primary"
+          >
+            <svg className="size-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M10.488 14.651L15.25 21h7l-7.858-10.478L20.93 3h-2.65l-5.117 5.886L8.75 3h-7l7.51 10.015L2.32 21h2.65zM16.25 19L5.75 5h2l10.5 14z" />
+            </svg>
+          </Link>
+          <Link
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="block text-muted-foreground hover:text-primary"
+          >
+            <svg className="size-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+            </svg>
+          </Link>
+          <Link
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+            className="block text-muted-foreground hover:text-primary"
+          >
+            <svg className="size-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M16.6 5.82s.51.5 0 0A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48" />
+            </svg>
+          </Link>
+          <Link
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Threads"
+            className="block text-muted-foreground hover:text-primary"
+          >
+            <svg className="size-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19.25 8.505c-1.577-5.867-7-5.5-7-5.5s-7.5-.5-7.5 8.995s7.5 8.996 7.5 8.996s4.458.296 6.5-3.918c.667-1.858.5-5.573-6-5.573c0 0-3 0-3 2.5c0 .976 1 2 2.5 2s3.171-1.027 3.5-3c1-6-4.5-6.5-6-4" color="currentColor" />
+            </svg>
+          </Link>
+        </div>
+        */}
+
+        <span className="block text-center text-sm text-muted-foreground">
+          © {new Date().getFullYear()} Listmates. All rights reserved.
+        </span>
       </div>
     </footer>
   );

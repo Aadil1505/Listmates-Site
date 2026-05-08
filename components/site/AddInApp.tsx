@@ -14,7 +14,6 @@ import {
   HeartGlyph,
   ChevronRight,
   SegmentedPriority,
-  sfRoundedFontStack,
 } from "./FormSheet";
 
 export function AddInApp() {
@@ -28,13 +27,12 @@ export function AddInApp() {
       <div className="relative z-10 mx-auto max-w-[1180px] px-5 md:px-8">
         <Reveal>
           <p className="mb-3 text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-            <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
-            From inside the app
+            Thinking of something?
           </p>
           <h2 className="mx-auto max-w-[22ch] text-center text-[clamp(32px,5vw,52px)] font-semibold leading-[1.08] tracking-[-0.02em] text-foreground">
-            Or, right inside the app.{" "}
+            Get it down,{" "}
             <span className="font-serif italic text-primary">
-              Three taps.
+              fast.
             </span>
           </h2>
         </Reveal>
@@ -112,19 +110,14 @@ function PlusFabVisual() {
     <div className="relative h-[260px] w-full max-w-[300px]">
       {/* Hint of list rows behind, fading out toward the bottom */}
       <div
-        className="absolute inset-x-4 top-2 flex flex-col gap-2"
+        className="absolute inset-x-4 top-2 flex flex-col gap-2 [mask-image:linear-gradient(to_bottom,black_0%,black_40%,transparent_95%)] [-webkit-mask-image:linear-gradient(to_bottom,black_0%,black_40%,transparent_95%)]"
         aria-hidden="true"
-        style={{
-          maskImage: "linear-gradient(to bottom, black 0%, black 40%, transparent 95%)",
-          WebkitMaskImage:
-            "linear-gradient(to bottom, black 0%, black 40%, transparent 95%)",
-        }}
       >
         {[0, 1, 2, 3].map((i) => (
           <div
             key={i}
-            className="rounded-[14px] border border-black/[0.04] bg-white/85 backdrop-blur-md"
-            style={{ height: 54, opacity: 1 - i * 0.18 }}
+            className="h-[54px] rounded-[14px] border border-ios-glass-border bg-ios-glass backdrop-blur-md"
+            style={{ opacity: 1 - i * 0.18 }}
           />
         ))}
       </div>
@@ -183,30 +176,30 @@ function NewItemSheetVisual() {
           </FormRow>
           <FormDivider />
           <FormRow>
-            <span className="truncate text-[15px] text-[oklch(40%_0.008_25)]">
+            <span className="truncate text-[15px] text-ios-text-secondary">
               lecreuset.com/dutch-ovens/5.5qt
             </span>
           </FormRow>
           <FormDivider />
           <FormRow>
-            <span className="text-[15px] tabular-nums text-[oklch(18%_0.01_25)]">
+            <span className="text-[15px] tabular-nums text-ios-text">
               399
             </span>
           </FormRow>
           <FormDivider />
           <FormRow>
-            <span className="flex items-center gap-2.5 text-[15px] text-[oklch(18%_0.01_25)]">
+            <span className="flex items-center gap-2.5 text-[15px] text-ios-text">
               <TagGlyph />
               Category
             </span>
-            <span className="flex items-center gap-1 text-[15px] text-[oklch(50%_0.008_25)]">
+            <span className="flex items-center gap-1 text-[15px] text-ios-text-secondary">
               Home
               <ChevronRight />
             </span>
           </FormRow>
           <FormDivider />
           <FormRow>
-            <span className="flex items-center gap-2.5 text-[15px] text-[oklch(18%_0.01_25)]">
+            <span className="flex items-center gap-2.5 text-[15px] text-ios-text">
               <HeartGlyph />
               Priority
             </span>
@@ -214,7 +207,6 @@ function NewItemSheetVisual() {
           </FormRow>
         </FormSection>
       </FormSheet>
-      <span className="sr-only" style={{ fontFamily: sfRoundedFontStack }} />
     </div>
   );
 }

@@ -27,11 +27,10 @@ export function AppListItemCard({
 }: Props) {
   return (
     <div
-      className={`relative overflow-hidden rounded-[16px] border border-black/[0.04] bg-white/85 p-4 shadow-[0_1px_0_rgba(255,255,255,0.9)_inset,0_10px_30px_-12px_oklch(20%_0.02_25/0.18)] backdrop-blur-md ${className}`}
-      style={{ fontFamily: '"SF Pro Rounded", "SF Pro", -apple-system, ui-rounded, system-ui, sans-serif' }}
+      className={`font-sf-rounded relative overflow-hidden rounded-[16px] border border-ios-glass-border bg-ios-glass shadow-[inset_0_1px_0_var(--ios-glass-inset),0_10px_30px_-12px_oklch(20%_0.02_25/0.18)] backdrop-blur-md p-4 ${className}`}
     >
       <div className="flex items-center gap-3">
-        <div className="relative h-[52px] w-[52px] flex-shrink-0 overflow-hidden rounded-[10px] bg-[oklch(50%_0.008_25/0.10)]">
+        <div className="relative h-[52px] w-[52px] flex-shrink-0 overflow-hidden rounded-[10px] bg-ios-fill-quaternary">
           {thumbnail}
         </div>
 
@@ -45,18 +44,18 @@ export function AppListItemCard({
             )}
           </div>
 
-          <div className="mt-2 line-clamp-2 text-[15px] font-semibold leading-[1.25] tracking-[-0.005em] text-[oklch(18%_0.01_25)]">
+          <div className="mt-2 line-clamp-2 text-[15px] font-semibold leading-[1.25] tracking-[-0.005em] text-ios-text">
             {title}
           </div>
 
           {note && (
-            <div className="mt-1 truncate text-[13px] leading-[1.3] text-[oklch(45%_0.008_25)]">
+            <div className="mt-1 truncate text-[13px] leading-[1.3] text-ios-text-tertiary">
               {note}
             </div>
           )}
 
           {domain && (
-            <div className="mt-1 truncate text-[12px] leading-[1.3] text-[oklch(50%_0.008_25)]">
+            <div className="mt-1 truncate text-[12px] leading-[1.3] text-ios-text-secondary">
               {domain}
             </div>
           )}
@@ -127,22 +126,21 @@ function PriorityHearts({ priority }: { priority: Priority }) {
 }
 
 function Heart({ filled, opacity }: { filled: boolean; opacity: number }) {
-  // Approximates SF Symbols heart / heart.fill at ~14pt.
-  const color = filled
-    ? `oklch(64% 0.18 18 / ${opacity})`
-    : `oklch(50% 0.008 25 / ${opacity})`;
+  const color = filled ? "var(--primary)" : "var(--ios-text-secondary)";
   return (
     <svg
       width="14"
       height="14"
       viewBox="0 0 16 16"
       aria-hidden="true"
-      style={{ display: "block" }}
+      className="block"
     >
       <path
         d="M8 13.5s-5.2-3.1-5.2-7A2.8 2.8 0 0 1 8 4.6a2.8 2.8 0 0 1 5.2 1.9c0 3.9-5.2 7-5.2 7z"
         fill={filled ? color : "none"}
+        fillOpacity={filled ? opacity : undefined}
         stroke={color}
+        strokeOpacity={opacity}
         strokeWidth={filled ? 0 : 1.4}
         strokeLinejoin="round"
       />

@@ -36,7 +36,7 @@ export function Faq() {
       <div className="mx-auto max-w-[820px] px-5 md:px-8">
         <Reveal>
           <p className="mb-3 text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-            <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
+            
             Questions
           </p>
           <h2 className="mx-auto max-w-[22ch] text-center text-[clamp(32px,5vw,52px)] font-semibold leading-[1.08] tracking-[-0.02em] text-foreground">

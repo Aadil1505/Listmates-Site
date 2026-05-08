@@ -5,12 +5,12 @@ import { Reveal } from "./Reveal";
 
 export function Native() {
   return (
-    <section className="py-32 md:py-40">
+    <section id="native" className="py-32 md:py-40">
       <div className="mx-auto grid max-w-[1180px] grid-cols-1 items-center gap-16 px-5 md:grid-cols-[0.9fr_1.1fr] md:gap-20 md:px-8">
         <Reveal>
           <div>
             <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-              <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
+              
               Built native
             </p>
             <h2 className="text-[clamp(28px,4vw,44px)] font-semibold leading-[1.1] tracking-[-0.018em] text-foreground">
@@ -19,18 +19,11 @@ export function Native() {
                 for iOS.
               </span>
             </h2>
-            <div className="mt-6 max-w-[52ch] space-y-4 text-[17px] leading-[1.65] text-muted-foreground">
-              <p>
-                Listmates is written in SwiftUI, runs on CloudKit, and uses the
-                same link-preview engine that powers iMessage. There's no React
-                Native shell, no Electron wrapper, no third-party analytics SDK
-                stitched into the app.
-              </p>
-              <p>
-                That's also why pairing is one tap, why it works offline, and
-                why everything renders at 120Hz on your iPhone.
-              </p>
-            </div>
+            <p className="mt-6 max-w-[52ch] text-[17px] leading-[1.65] text-muted-foreground">
+              Pure SwiftUI on CloudKit, with the same link-preview engine as
+              iMessage. No React Native, no analytics SDKs, just iOS, native
+              and quiet.
+            </p>
           </div>
         </Reveal>
 

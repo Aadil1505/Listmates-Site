@@ -47,6 +47,24 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* iOS-app palette exposed as Tailwind utilities:
+     bg-ios-surface, text-ios-text, text-ios-text-secondary, border-ios-divider, etc. */
+  --color-ios-bg: var(--ios-bg);
+  --color-ios-surface: var(--ios-surface);
+  --color-ios-surface-elevated: var(--ios-surface-elevated);
+  --color-ios-text: var(--ios-text-primary);
+  --color-ios-text-secondary: var(--ios-text-secondary);
+  --color-ios-text-tertiary: var(--ios-text-tertiary);
+  --color-ios-divider: var(--ios-divider);
+  --color-ios-fill: var(--ios-fill);
+  --color-ios-fill-quaternary: var(--ios-fill-quaternary);
+  --color-ios-glass: var(--ios-glass-bg);
+  --color-ios-glass-border: var(--ios-glass-border);
+  --color-ios-glass-inset: var(--ios-glass-shadow-inset);
+
+  --font-sf-rounded: "SF Pro Rounded", "SF Pro", -apple-system, ui-rounded,
+    system-ui, sans-serif;
 }
 
 :root {
@@ -83,6 +101,21 @@
   --sidebar-accent-foreground: oklch(58% 0.19 18);
   --sidebar-border: oklch(90% 0.005 25);
   --sidebar-ring: oklch(64% 0.18 18);
+
+  /* iOS-app palette — mirrors Listmates.xcassets, used by the in-page
+     iOS-style mockups (FormSheet, AppListItemCard, ListOverview, Share, etc.). */
+  --ios-bg: #F2F2F7;
+  --ios-surface: #FFFFFF;
+  --ios-surface-elevated: #F2F2F7;
+  --ios-text-primary: #000000;
+  --ios-text-secondary: #8E8E93;
+  --ios-text-tertiary: #6E6E73;
+  --ios-divider: rgba(60, 60, 67, 0.12);
+  --ios-fill: rgba(120, 120, 128, 0.20);
+  --ios-fill-quaternary: rgba(120, 120, 128, 0.10);
+  --ios-glass-bg: rgba(255, 255, 255, 0.85);
+  --ios-glass-border: rgba(0, 0, 0, 0.05);
+  --ios-glass-shadow-inset: rgba(255, 255, 255, 0.9);
 }
 
 .dark {
@@ -117,6 +150,20 @@
   --sidebar-accent-foreground: oklch(78% 0.16 18);
   --sidebar-border: oklch(25% 0.006 25);
   --sidebar-ring: oklch(70% 0.17 18);
+
+  /* iOS-app dark palette */
+  --ios-bg: #000000;
+  --ios-surface: #1C1C1E;
+  --ios-surface-elevated: #2C2C2E;
+  --ios-text-primary: #FFFFFF;
+  --ios-text-secondary: #8E8E93;
+  --ios-text-tertiary: #AEAEB2;
+  --ios-divider: rgba(84, 84, 88, 0.45);
+  --ios-fill: rgba(120, 120, 128, 0.36);
+  --ios-fill-quaternary: rgba(118, 118, 128, 0.24);
+  --ios-glass-bg: rgba(28, 28, 30, 0.78);
+  --ios-glass-border: rgba(255, 255, 255, 0.08);
+  --ios-glass-shadow-inset: rgba(255, 255, 255, 0.06);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -139,6 +186,20 @@
     --border: oklch(25% 0.006 25);
     --input: oklch(25% 0.006 25);
     --ring: oklch(70% 0.17 18);
+
+    /* iOS-app dark palette */
+    --ios-bg: #000000;
+    --ios-surface: #1C1C1E;
+    --ios-surface-elevated: #2C2C2E;
+    --ios-text-primary: #FFFFFF;
+    --ios-text-secondary: #8E8E93;
+    --ios-text-tertiary: #AEAEB2;
+    --ios-divider: rgba(84, 84, 88, 0.45);
+    --ios-fill: rgba(120, 120, 128, 0.36);
+    --ios-fill-quaternary: rgba(118, 118, 128, 0.24);
+    --ios-glass-bg: rgba(28, 28, 30, 0.78);
+    --ios-glass-border: rgba(255, 255, 255, 0.08);
+    --ios-glass-shadow-inset: rgba(255, 255, 255, 0.06);
   }
 }
 

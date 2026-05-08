@@ -25,25 +25,17 @@ export function Share() {
           <Reveal>
             <div className="max-w-[52ch]">
               <p className="mb-5 text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-                <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
-                From anywhere
+                End the screenshot graveyard
               </p>
               <h2 className="text-[clamp(28px,4vw,44px)] font-semibold leading-[1.1] tracking-[-0.018em] text-foreground">
-                From any app,{" "}
+                See it.{" "}
                 <span className="font-serif italic text-primary">
-                  in two taps.
+                  Save it.
                 </span>
               </h2>
               <p className="mt-5 text-[17px] leading-[1.65] text-muted-foreground">
-                See something good in Safari, Instagram, Etsy, the Apple Store,
-                anywhere? Hit the Share button, pick Listmates, and a small
-                sheet slides up. Title and image come in automatically, the
-                same link preview the rest of iOS uses.
-                <br />
-                <br />
-                Add a note, a price, a priority, or just tap Save. The item
-                lands in your list before you tap back into the app you came
-                from.
+                Hit Share on any link, pick Listmates. Title and image fill
+                themselves.
               </p>
             </div>
           </Reveal>
@@ -66,7 +58,7 @@ function ShareExtensionSheet() {
       <FormSection>
         <div className="flex items-center gap-3 px-5 py-2.5">
           <div
-            className="h-14 w-14 flex-shrink-0 overflow-hidden rounded-[10px] bg-[oklch(50%_0.008_25/0.10)]"
+            className="h-14 w-14 flex-shrink-0 overflow-hidden rounded-[10px] bg-ios-fill-quaternary"
             aria-hidden="true"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -79,10 +71,10 @@ function ShareExtensionSheet() {
             />
           </div>
           <div className="min-w-0 flex-1">
-            <div className="truncate text-[15px] text-[oklch(45%_0.008_25)]">
+            <div className="truncate text-[15px] text-ios-text">
               lelabofragrances.com
             </div>
-            <div className="mt-0.5 line-clamp-2 break-all text-[12px] leading-[1.3] text-[oklch(60%_0.008_25)]">
+            <div className="mt-0.5 line-clamp-2 break-all text-[12px] leading-[1.3] text-ios-text-secondary">
               lelabofragrances.com/us/en/product/santal-33
             </div>
           </div>
@@ -103,24 +95,24 @@ function ShareExtensionSheet() {
         </FormRow>
         <FormDivider />
         <FormRow>
-          <span className="text-[15px] tabular-nums text-[oklch(18%_0.01_25)]">
+          <span className="text-[15px] tabular-nums text-ios-text">
             230
           </span>
         </FormRow>
         <FormDivider />
         <FormRow>
-          <span className="flex items-center gap-2.5 text-[15px] text-[oklch(18%_0.01_25)]">
+          <span className="flex items-center gap-2.5 text-[15px] text-ios-text">
             <TagGlyph />
             Category
           </span>
-          <span className="flex items-center gap-1 text-[15px] text-[oklch(50%_0.008_25)]">
+          <span className="flex items-center gap-1 text-[15px] text-ios-text-secondary">
             Beauty
             <ChevronRight />
           </span>
         </FormRow>
         <FormDivider />
         <FormRow>
-          <span className="flex items-center gap-2.5 text-[15px] text-[oklch(18%_0.01_25)]">
+          <span className="flex items-center gap-2.5 text-[15px] text-ios-text">
             <HeartGlyph />
             Priority
           </span>

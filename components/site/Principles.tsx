@@ -10,13 +10,13 @@ export function Principles() {
       <div className="mx-auto max-w-[1180px] px-5 md:px-8">
         <Reveal>
           <p className="mb-3 text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-            <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
+
             How it works
           </p>
           <h2 className="mx-auto max-w-[22ch] text-center text-[clamp(32px,5vw,52px)] font-semibold leading-[1.08] tracking-[-0.02em] text-foreground">
-            Three small things,{" "}
+            Like you&rsquo;ve been{" "}
             <span className="font-serif italic text-primary">
-              done with care.
+              paying attention.
             </span>
           </h2>
         </Reveal>
@@ -24,18 +24,11 @@ export function Principles() {
         <div className="mt-20 flex flex-col gap-28 md:gap-36">
           <Block
             number="01"
-            title="Add anything, in seconds."
+            title="Catch it before you forget."
             body={
               <>
-                Paste a link from anywhere. Listmates pulls the title and
-                image automatically, the same way iMessage does it, because
-                it's the same iOS framework underneath. No registry sign-up,
-                no copy-and-pasting from a spreadsheet.
-                <br />
-                <br />
-                Or just type a thought. <em className="font-serif">A new throw for the couch.</em>{" "}
-                <em className="font-serif">Books I keep meaning to read.</em> Add a price if
-                you want, tag a priority, pick a category, done.
+                Paste a link or jot a thought. Title and image fill in for
+                you.
               </>
             }
             visual={<AddVisual />}
@@ -43,17 +36,11 @@ export function Principles() {
           />
           <Block
             number="02"
-            title="Claim, quietly."
+            title="Buy it. They never know."
             body={
               <>
-                When you open your partner's list, tap claim on anything you'd
-                like to gift them. A small rose check appears on your side, a
-                quiet note to yourself that you've got it covered.
-                <br />
-                <br />
-                They never see the check. The item stays on their list exactly
-                as they left it; nothing moves, nothing changes for them. The
-                surprise is preserved.
+                Tap claim. A rose check appears only on your side, never on
+                theirs.
               </>
             }
             visual={<ClaimVisual />}
@@ -72,12 +59,8 @@ export function Principles() {
             }
             body={
               <>
-                No accounts, no passwords, no servers we run. Listmates uses
-                Apple&rsquo;s CloudKit, so your lists are shared privately
-                with one other person, and only that person. We can&rsquo;t
-                read them, can&rsquo;t lose them, can&rsquo;t accidentally
-                email them to a marketing list. If you ever delete the app,
-                your data goes with it.
+                No accounts, no servers, just CloudKit. What you want stays
+                between the two of you.
               </>
             }
           />
@@ -148,11 +131,11 @@ function AddVisual() {
     <div className="relative w-full max-w-[420px]">
       {/* Subtle stacked cards behind to suggest a list */}
       <div
-        className="absolute -bottom-3 left-6 right-6 -z-10 h-16 rounded-[16px] border border-black/[0.04] bg-white/55 backdrop-blur-sm"
+        className="absolute -bottom-3 left-6 right-6 -z-10 h-16 rounded-[16px] border border-ios-glass-border bg-ios-glass opacity-65 backdrop-blur-sm"
         aria-hidden="true"
       />
       <div
-        className="absolute -bottom-6 left-12 right-12 -z-20 h-16 rounded-[16px] border border-black/[0.03] bg-white/35"
+        className="absolute -bottom-6 left-12 right-12 -z-20 h-16 rounded-[16px] border border-ios-glass-border bg-ios-glass opacity-40"
         aria-hidden="true"
       />
 

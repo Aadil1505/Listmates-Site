@@ -6,17 +6,20 @@ import { Reveal } from "./Reveal";
 
 export function TwoLists() {
   return (
-    <section className="relative overflow-hidden border-y border-border py-28 md:py-40">
+    <section
+      id="lists"
+      className="relative overflow-hidden py-28 md:py-40"
+    >
       <div className="mx-auto max-w-[1180px] px-5 md:px-8">
         <Reveal>
           <p className="mb-3 text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-            <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
-            One quiet place
+
+            Birthdays, handled
           </p>
           <h2 className="mx-auto max-w-[18ch] text-center text-[clamp(32px,5vw,52px)] font-semibold leading-[1.08] tracking-[-0.02em] text-foreground">
-            Your list. Their list.{" "}
+            Your list.{" "}
             <span className="font-serif italic text-primary">
-              Together.
+              Their list.
             </span>
           </h2>
         </Reveal>
@@ -41,8 +44,8 @@ export function TwoLists() {
 
         <Reveal delay={0.3}>
           <p className="mx-auto mt-16 max-w-[40ch] text-center text-[17px] leading-[1.55] text-muted-foreground md:mt-24">
-            Two lists, one private space. Linked once through iCloud and synced
-            quietly between the two of you, forever.
+            They drop in what they want, all year. You see it long before
+            you need it.
           </p>
         </Reveal>
       </div>

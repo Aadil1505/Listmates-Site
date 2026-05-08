@@ -7,21 +7,21 @@ import { AppListItemCard } from "./AppListItemCard";
 export function ClaimDemo() {
   return (
     <section
-      id="privacy"
-      className="relative overflow-hidden border-y border-border py-32 md:py-44"
+      id="claim"
+      className="relative overflow-hidden py-32 md:py-44"
     >
       <div className="ambient-glow opacity-60" aria-hidden="true" />
 
       <div className="relative z-10 mx-auto max-w-[1180px] px-5 md:px-8">
         <Reveal>
           <p className="mb-3 text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-            <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
-            The claim
+
+            Save the surprise
           </p>
           <h2 className="mx-auto max-w-[22ch] text-center text-[clamp(32px,5vw,52px)] font-semibold leading-[1.08] tracking-[-0.02em] text-foreground">
-            One list, two views.{" "}
+            One list,{" "}
             <span className="font-serif italic text-primary">
-              The check is just for you.
+              two views.
             </span>
           </h2>
         </Reveal>
@@ -50,9 +50,8 @@ export function ClaimDemo() {
 
         <Reveal delay={0.25}>
           <p className="mx-auto mt-16 max-w-[44ch] text-center text-[17px] leading-[1.6] text-muted-foreground">
-            Theo&rsquo;s list looks the same to him whether you&rsquo;ve
-            claimed something or not. The check lives only on your side, a
-            private note that you&rsquo;ve got the gift covered.
+            He never sees what&rsquo;s coming. You never double up on
+            what&rsquo;s already wrapped.
           </p>
         </Reveal>
       </div>

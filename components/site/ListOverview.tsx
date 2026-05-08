@@ -3,9 +3,6 @@
 import * as React from "react";
 import { Reveal } from "./Reveal";
 
-const sfRoundedFontStack =
-  '"SF Pro Rounded", "SF Pro", -apple-system, ui-rounded, system-ui, sans-serif';
-
 export function ListOverview() {
   return (
     <section
@@ -17,20 +14,16 @@ export function ListOverview() {
       <div className="relative z-10 mx-auto max-w-[1180px] px-5 md:px-8">
         <Reveal>
           <p className="mb-3 text-center text-[12px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-            <span className="mr-2 inline-block h-[5px] w-[5px] -translate-y-[2px] rounded-full bg-primary align-middle" />
-            A small overview
+            Know you&rsquo;ve done enough
           </p>
           <h2 className="mx-auto max-w-[24ch] text-center text-[clamp(32px,5vw,52px)] font-semibold leading-[1.08] tracking-[-0.02em] text-foreground">
-            A quiet sense of the list,{" "}
+            How much you&rsquo;ve{" "}
             <span className="font-serif italic text-primary">
-              from both sides.
+              covered.
             </span>
           </h2>
           <p className="mx-auto mt-5 max-w-[58ch] text-center text-[17px] leading-[1.65] text-muted-foreground">
-            A small card sits at the top of each list. Yours shows the spread
-            of prices and how many items you&rsquo;ve flagged as &ldquo;really
-            want this.&rdquo; Theirs, when you&rsquo;re shopping for them,
-            shows how much you&rsquo;ve already covered.
+            One glance tells you if you&rsquo;re set or one stop short.
           </p>
         </Reveal>
 
@@ -64,10 +57,7 @@ function Caption({ children }: { children: React.ReactNode }) {
 
 function GlassCard({ children }: { children: React.ReactNode }) {
   return (
-    <div
-      className="rounded-[16px] border border-black/[0.05] bg-white/85 p-3 shadow-[0_1px_0_rgba(255,255,255,0.9)_inset,0_14px_36px_-16px_oklch(20%_0.02_25/0.18)] backdrop-blur-md"
-      style={{ fontFamily: sfRoundedFontStack }}
-    >
+    <div className="font-sf-rounded rounded-[16px] border border-ios-glass-border bg-ios-glass p-3 shadow-[inset_0_1px_0_var(--ios-glass-inset),0_14px_36px_-16px_oklch(20%_0.02_25/0.18)] backdrop-blur-md">
       {children}
     </div>
   );
@@ -75,7 +65,7 @@ function GlassCard({ children }: { children: React.ReactNode }) {
 
 function OverviewHeader() {
   return (
-    <div className="text-[10px] font-semibold uppercase tracking-[0.06em] text-[oklch(50%_0.008_25)]">
+    <div className="text-[10px] font-semibold uppercase tracking-[0.06em] text-ios-text-secondary">
       Overview
     </div>
   );
@@ -110,30 +100,30 @@ function MyListOverview() {
           {/* Stats, right — 84pt fixed width */}
           <div className="flex w-[84px] flex-shrink-0 flex-col items-end gap-1.5">
             <div className="flex flex-col items-end leading-none">
-              <span className="text-[32px] font-bold tracking-[-0.01em] text-[oklch(18%_0.01_25)]">
+              <span className="text-[32px] font-bold tracking-[-0.01em] text-ios-text">
                 {total}
               </span>
-              <span className="mt-0.5 text-[10px] text-[oklch(50%_0.008_25)]">
+              <span className="mt-0.5 text-[10px] text-ios-text-secondary">
                 items
               </span>
             </div>
 
-            <div className="my-0.5 h-px w-full bg-black/[0.08]" />
+            <div className="my-0.5 h-px w-full bg-ios-divider" />
 
             <div className="flex flex-col items-end leading-none">
               <span className="text-[12px] font-semibold tabular-nums text-primary">
                 {totalPrice}
               </span>
-              <span className="mt-0.5 text-[10px] text-[oklch(50%_0.008_25)]">
+              <span className="mt-0.5 text-[10px] text-ios-text-secondary">
                 estimated
               </span>
             </div>
 
             <div className="flex flex-col items-end leading-none">
-              <span className="text-[12px] font-semibold tabular-nums text-[oklch(18%_0.01_25)]">
+              <span className="text-[12px] font-semibold tabular-nums text-ios-text">
                 {highPriority}
               </span>
-              <span className="mt-0.5 text-[10px] text-[oklch(50%_0.008_25)]">
+              <span className="mt-0.5 text-[10px] text-ios-text-secondary">
                 high priority
               </span>
             </div>
@@ -177,7 +167,7 @@ function BarChart({
         {buckets.map((b) => (
           <span
             key={b.id}
-            className="flex-1 text-center text-[8px] tracking-[-0.005em] text-[oklch(50%_0.008_25)]"
+            className="flex-1 text-center text-[8px] tracking-[-0.005em] text-ios-text-secondary"
           >
             {b.label}
           </span>
@@ -204,7 +194,7 @@ function PartnerOverview() {
         <div className="flex items-stretch gap-4">
           {/* Progress bar + labels, left */}
           <div className="flex h-[70px] flex-1 flex-col gap-1.5">
-            <div className="relative h-[44px] overflow-hidden rounded-[12px] bg-[oklch(50%_0.008_25/0.15)]">
+            <div className="relative h-[44px] overflow-hidden rounded-[12px] bg-ios-fill-quaternary">
               <div
                 className="absolute inset-y-0 left-0 rounded-[12px] bg-primary"
                 style={{ width: `${claimedPct}%` }}
@@ -216,7 +206,7 @@ function PartnerOverview() {
                 <CheckCircleFill />
                 {claimed} claimed
               </span>
-              <span className="text-[10px] text-[oklch(50%_0.008_25)]">
+              <span className="text-[10px] text-ios-text-secondary">
                 {left} left
               </span>
             </div>
@@ -225,30 +215,30 @@ function PartnerOverview() {
           {/* Stats, right — 84pt fixed width */}
           <div className="flex w-[84px] flex-shrink-0 flex-col items-end gap-1.5">
             <div className="flex flex-col items-end leading-none">
-              <span className="text-[32px] font-bold tracking-[-0.01em] text-[oklch(18%_0.01_25)]">
+              <span className="text-[32px] font-bold tracking-[-0.01em] text-ios-text">
                 {items}
               </span>
-              <span className="mt-0.5 text-[10px] text-[oklch(50%_0.008_25)]">
+              <span className="mt-0.5 text-[10px] text-ios-text-secondary">
                 items
               </span>
             </div>
 
-            <div className="my-0.5 h-px w-full bg-black/[0.08]" />
+            <div className="my-0.5 h-px w-full bg-ios-divider" />
 
             <div className="flex flex-col items-end leading-none">
               <span className="text-[12px] font-semibold tabular-nums text-primary">
                 {claimed} / {items}
               </span>
-              <span className="mt-0.5 text-[10px] text-[oklch(50%_0.008_25)]">
+              <span className="mt-0.5 text-[10px] text-ios-text-secondary">
                 claimed
               </span>
             </div>
 
             <div className="flex flex-col items-end leading-none">
-              <span className="text-[12px] font-semibold tabular-nums text-[oklch(18%_0.01_25)]">
+              <span className="text-[12px] font-semibold tabular-nums text-ios-text">
                 {totalPrice}
               </span>
-              <span className="mt-0.5 text-[10px] text-[oklch(50%_0.008_25)]">
+              <span className="mt-0.5 text-[10px] text-ios-text-secondary">
                 estimated
               </span>
             </div>

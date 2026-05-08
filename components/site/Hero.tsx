@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { AppStoreBadge } from "./AppStoreBadge";
 
@@ -27,10 +28,10 @@ export function Hero() {
       {/* Background "two" wordmark — soft, behind everything */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 top-[36%] z-0 flex justify-center select-none md:top-[42%]"
+        className="pointer-events-none absolute inset-x-0 top-[62%] z-0 flex justify-center select-none sm:top-[55%] md:top-[42%]"
       >
         <span
-          className="font-serif italic text-foreground/[0.035] dark:text-foreground/[0.06]"
+          className="font-serif italic text-foreground/[0.035] dark:text-foreground/6"
           style={{
             fontSize: "clamp(280px, 50vw, 720px)",
             lineHeight: 0.85,
@@ -41,20 +42,7 @@ export function Hero() {
         </span>
       </div>
 
-      <div className="relative z-10 mx-auto flex max-w-[920px] flex-col items-center px-5 text-center md:px-8">
-        {/* Eyebrow chip */}
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-3.5 py-1.5 text-[12px] font-medium tracking-tight text-muted-foreground backdrop-blur uppercase"
-        >
-          <span className="relative flex h-1.5 w-1.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-60" />
-            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
-          </span>
-          Made for two. Now on iOS
-        </motion.div>
+      <div className="relative z-10 mx-auto flex max-w-230 flex-col items-center px-5 text-center md:px-8">
 
         {/* Headline */}
         <motion.h1
@@ -64,13 +52,82 @@ export function Hero() {
           className="tracking-display mt-7 font-semibold leading-[0.98] text-foreground"
           style={{ fontSize: "clamp(44px, 9vw, 96px)" }}
         >
-          A Wishlist
-          <br />
-          For The{" "}
+          Stop Guessing.{" "}
+          <br/>
           <span className="font-serif italic font-bold text-primary">
-            Two Of You.
+            Start Nailing It.
           </span>
         </motion.h1>
+
+        {/* iOS app icon */}
+        <motion.a
+          href="https://apps.apple.com/app/listmates/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download Listmates on the App Store"
+          initial={{ opacity: 0, y: 16, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          whileHover={{ scale: 1.06, y: -3 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.14 }}
+          className="group relative mt-10 block cursor-pointer md:mt-12"
+          style={{
+            width: 112,
+            height: 112,
+            filter:
+              "drop-shadow(0 18px 32px oklch(20% 0.02 25 / 0.20)) drop-shadow(0 6px 10px oklch(20% 0.02 25 / 0.10))",
+          }}
+        >
+          <div
+            className="relative h-full w-full overflow-hidden backdrop-blur-xl transition-shadow duration-300 group-hover:shadow-lg"
+            style={{
+              borderRadius: "25.2px",
+              background:
+                "linear-gradient(155deg, oklch(100% 0 0 / 0.28) 0%, oklch(100% 0 0 / 0.10) 45%, oklch(100% 0 0 / 0.06) 70%, oklch(100% 0 0 / 0.16) 100%)",
+              WebkitMaskImage: "radial-gradient(white, black)",
+            }}
+          >
+            <Image
+              src="/web-app-manifest-512x512.png"
+              alt="Listmates app icon"
+              width={512}
+              height={512}
+              priority
+              className="absolute inset-0 m-auto object-contain"
+              style={{ width: "72%", height: "72%" }}
+            />
+            {/* glossy top highlight */}
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-x-0 top-0 h-1/2"
+              style={{
+                background:
+                  "linear-gradient(180deg, oklch(100% 0 0 / 0.18) 0%, oklch(100% 0 0 / 0) 100%)",
+                borderTopLeftRadius: "25.2px",
+                borderTopRightRadius: "25.2px",
+              }}
+            />
+            {/* edge ring */}
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-0"
+              style={{
+                borderRadius: "25.2px",
+                boxShadow:
+                  "inset 0 1px 0 oklch(100% 0 0 / 0.28), inset 0 0 0 1px oklch(0% 0 0 / 0.06)",
+              }}
+            />
+          </div>
+        </motion.a>
+
+        {/* App name under icon */}
+        <motion.span
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.22 }}
+          className="mt-3 text-[13px] font-medium tracking-tight text-foreground/80"
+        >
+          Listmates
+        </motion.span>
 
         {/* Sub copy */}
         <motion.p
@@ -79,8 +136,8 @@ export function Hero() {
           transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: 0.18 }}
           className="mt-6 max-w-[42ch] text-[17px] leading-[1.55] text-muted-foreground md:text-[19px]"
         >
-          Keep the things you&apos;d love in one quiet place, shared just with
-          your person. Claim their gifts in secret.
+          They&apos;ve been telling you all year. You just needed somewhere
+          to put it.
         </motion.p>
 
         {/* CTAs */}
@@ -91,16 +148,26 @@ export function Hero() {
           className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:gap-4"
         >
           <AppStoreBadge size="lg" />
-          <a
-            href="#how"
+          <Link
+            href="/#how"
             className="inline-flex h-12 items-center gap-2 rounded-full px-2 text-[14px] font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
             How it works
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M13 5l7 7-7 7" />
             </svg>
-          </a>
+          </Link>
         </motion.div>
+
+        {/* Friction-killer line */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.42 }}
+          className="mt-4 text-[12px] font-medium tracking-tight text-muted-foreground/70"
+        >
+          Free. Pair in 30 seconds. No account.
+        </motion.p>
 
         {/* Phone with floating sticker */}
         <motion.div
@@ -178,11 +245,11 @@ export function Hero() {
           transition={{ duration: 1, delay: 1 }}
           className="mt-14 flex flex-wrap items-center justify-center gap-x-2 gap-y-2 text-[12px] text-muted-foreground/70 md:mt-20"
         >
-          <Stat>Add anything in seconds</Stat>
+          <Stat>No more &ldquo;what do you want?&rdquo; texts</Stat>
           <Dot />
-          <Stat>Beautiful link previews</Stat>
+          <Stat>No more duplicate gifts</Stat>
           <Dot />
-          <Stat>Private to the two of you</Stat>
+          <Stat>No more disappointed smiles</Stat>
         </motion.div>
       </div>
     </section>
